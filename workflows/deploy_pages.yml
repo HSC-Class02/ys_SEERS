@@ -1,0 +1,43 @@
+name: Deploy dashboard
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "dashboard/**"
+      - "data/dashboard_data.json"
+      - ".github/workflows/deploy_pages.yml"
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["DART data update"]
+    types: [completed]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site/data
+          cp dashboard/index.html _site/index.html
+          if [ -f data/dashboard_data.json ]; then cp data/dashboard_data.json _site/data/dashboard_data.json; else echo '{"company":{"corp_name":"씨어스"},"accounts":[],"ratios":[],"filings":[]}' > _site/data/dashboard_data.json; fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
