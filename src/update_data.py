@@ -18,7 +18,7 @@ TARGET_STOCK_CODE = "458870"  # 씨어스테크놀로지 코스닥 종목코드
 START_YEAR = 2010
 REPORTS = {
     "annual": ["11011"],
-    "half-year": ["11012"],
+    "half_year": ["11012"],
     "quarterly": ["11013", "11014"],
 }
 COLUMNS = ["year", "category", "report_code", "statement", "account_id",
