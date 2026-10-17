@@ -1,5 +1,12 @@
 name: Monthly DART update and GitHub Pages
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/monthly_dart_update.yml"
+      - "src/**"
+      - "dashboard/**"
+      - "requirements.txt"
   workflow_dispatch:
   schedule:
     - cron: "15 16 1 * *"
