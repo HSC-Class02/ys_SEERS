@@ -1,0 +1,955 @@
+﻿year,category,report_code,statement,account_id,account,current_period,amount,currency,previous_period,previous_amount
+2024,annual,11011,재무상태표,ifrs-full_Assets,자산총계,제 16 기,28083739034.0,KRW,제 15 기,17146655638.0
+2024,annual,11011,재무상태표,ifrs-full_CurrentAssets,유동자산,제 16 기,16442253238.0,KRW,제 15 기,5870794146.0
+2024,annual,11011,재무상태표,dart_ShortTermAdvancePayments,선급금,제 16 기,71495702.0,KRW,제 15 기,19910683.0
+2024,annual,11011,재무상태표,dart_ShortTermLoans,단기대여금,제 16 기,,KRW,제 15 기,
+2024,annual,11011,재무상태표,dart_ShortTermOtherReceivables,미수금,제 16 기,5082000.0,KRW,제 15 기,141097050.0
+2024,annual,11011,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 16 기,59569866.0,KRW,제 15 기,26590672.0
+2024,annual,11011,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 16 기,4237414037.0,KRW,제 15 기,517228446.0
+2024,annual,11011,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 16 기,10801030237.0,KRW,제 15 기,4142264509.0
+2024,annual,11011,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 16 기,41246830.0,KRW,제 15 기,12685490.0
+2024,annual,11011,재무상태표,ifrs-full_Inventories,재고자산,제 16 기,1226414566.0,KRW,제 15 기,1011017296.0
+2024,annual,11011,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 16 기,11641485796.0,KRW,제 15 기,11275861492.0
+2024,annual,11011,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 16 기,26850718.0,KRW,제 15 기,36547417.0
+2024,annual,11011,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 16 기,429449830.0,KRW,제 15 기,408658175.0
+2024,annual,11011,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,제 16 기,999999963.0,KRW,제 15 기,
+2024,annual,11011,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 16 기,10185185285.0,KRW,제 15 기,10830655900.0
+2024,annual,11011,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 16 기,287206588.0,KRW,제 15 기,413285791.0
+2024,annual,11011,재무상태표,dart_OtherCapitalSurplus,기타자본잉여금,제 16 기,8818720.0,KRW,제 15 기,8818720.0
+2024,annual,11011,재무상태표,ifrs-full_Equity,자본총계,제 16 기,21398870839.0,KRW,제 15 기,8108486575.0
+2024,annual,11011,재무상태표,ifrs-full_IssuedCapital,자본금,제 16 기,6275840000.0,KRW,제 15 기,5477440000.0
+2024,annual,11011,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 16 기,-45194681563.0,KRW,제 15 기,-35970745550.0
+2024,annual,11011,재무상태표,ifrs-full_SharePremium,주식발행초과금,제 16 기,60021687094.0,KRW,제 15 기,38179687614.0
+2024,annual,11011,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 16 기,28083739034.0,KRW,제 15 기,17146655638.0
+2024,annual,11011,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 16 기,3879868600.0,KRW,제 15 기,6728865826.0
+2024,annual,11011,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 16 기,241347870.0,KRW,제 15 기,206759268.0
+2024,annual,11011,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 16 기,2000000.0,KRW,제 15 기,2000000.0
+2024,annual,11011,재무상태표,dart_ShortTermOtherPayables,미지급금,제 16 기,735104071.0,KRW,제 15 기,193153917.0
+2024,annual,11011,재무상태표,dart_ShortTermTradePayables,매입채무,제 16 기,243669654.0,KRW,제 15 기,196285161.0
+2024,annual,11011,재무상태표,dart_ShortTermWithholdings,예수금,제 16 기,76311520.0,KRW,제 15 기,62386300.0
+2024,annual,11011,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 16 기,613905691.0,KRW,제 15 기,1143862047.0
+2024,annual,11011,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,제 16 기,362679322.0,KRW,제 15 기,304701936.0
+2024,annual,11011,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 16 기,24850472.0,KRW,제 15 기,39717197.0
+2024,annual,11011,재무상태표,ifrs-full_OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings,유동성장기차입금,제 16 기,,KRW,제 15 기,
+2024,annual,11011,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 16 기,1580000000.0,KRW,제 15 기,4580000000.0
+2024,annual,11011,재무상태표,ifrs-full_Liabilities,부채총계,제 16 기,6684868195.0,KRW,제 15 기,9038169063.0
+2024,annual,11011,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 16 기,2804999595.0,KRW,제 15 기,2309303237.0
+2024,annual,11011,재무상태표,dart_LongTermGuaranteeDepositRentGross,임대보증금,제 16 기,,KRW,제 15 기,
+2024,annual,11011,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 16 기,1648421942.0,KRW,제 15 기,847693389.0
+2024,annual,11011,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 16 기,1102980607.0,KRW,제 15 기,1408908721.0
+2024,annual,11011,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,제 16 기,53597046.0,KRW,제 15 기,52701127.0
+2024,annual,11011,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 16 기,-8681501062.0,KRW,제 15 기,-9803411085.0
+2024,annual,11011,포괄손익계산서,dart_OtherGains,기타이익,제 16 기,12999960.0,KRW,제 15 기,15140581.0
+2024,annual,11011,포괄손익계산서,dart_OtherLosses,기타손실,제 16 기,18.0,KRW,제 15 기,7778399.0
+2024,annual,11011,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 16 기,12117251677.0,KRW,제 15 기,8978920843.0
+2024,annual,11011,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 16 기,-9223936013.0,KRW,제 15 기,-9982229960.0
+2024,annual,11011,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 16 기,4664004195.0,KRW,제 15 기,2709500709.0
+2024,annual,11011,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 16 기,-752.0,KRW,제 15 기,-905.0
+2024,annual,11011,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 16 기,-752.0,KRW,제 15 기,-905.0
+2024,annual,11011,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 16 기,394223337.0,KRW,제 15 기,213113753.0
+2024,annual,11011,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 16 기,284405124.0,KRW,제 15 기,92216418.0
+2024,annual,11011,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 16 기,3435750615.0,KRW,제 15 기,-824490242.0
+2024,annual,11011,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),제 16 기,-93133886.0,KRW,제 15 기,
+2024,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,제 16 기,-352482794.0,KRW,제 15 기,-65283722.0
+2024,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),제 16 기,-352482794.0,KRW,제 15 기,-65283722.0
+2024,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),제 16 기,-352482794.0,KRW,제 15 기,-65283722.0
+2024,annual,11011,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기,-8871453219.0,KRW,제 15 기,-9916946238.0
+2024,annual,11011,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 16 기,-8778319333.0,KRW,제 15 기,-9916946238.0
+2024,annual,11011,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 16 기,8099754810.0,KRW,제 15 기,1885010467.0
+2024,annual,11011,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 16 기,4142264509.0,KRW,제 15 기,10298489998.0
+2024,annual,11011,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 16 기,10801030237.0,KRW,제 15 기,4142264509.0
+2024,annual,11011,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 16 기,19176101214.0,KRW,제 15 기,2729423823.0
+2024,annual,11011,현금흐름표,dart_IncreaseInGuaranteeDepositsAsFinancialActivities,임대보증금의 증가,제 16 기,,KRW,제 15 기,
+2024,annual,11011,현금흐름표,dart_PaymentForStockIssueCost,신주발행비 지급,제 16 기,,KRW,제 15 기,22220453.0
+2024,annual,11011,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사,제 16 기,752517280.0,KRW,제 15 기,
+2024,annual,11011,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 16 기,1930000000.0,KRW,제 15 기,3000000000.0
+2024,annual,11011,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,제 16 기,4930000000.0,KRW,제 15 기,
+2024,annual,11011,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 16 기,310188466.0,KRW,제 15 기,232411014.0
+2024,annual,11011,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 감소,제 16 기,,KRW,제 15 기,9045290.0
+2024,annual,11011,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,제 16 기,,KRW,제 15 기,24990000.0
+2024,annual,11011,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,제 16 기,21733772400.0,KRW,제 15 기,
+2024,annual,11011,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 16 기,-1416822391.0,KRW,제 15 기,-990244300.0
+2024,annual,11011,현금흐름표,dart_DecreaseInLoans,대여금의 감소,제 16 기,,KRW,제 15 기,30000000.0
+2024,annual,11011,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,제 16 기,999999963.0,KRW,제 15 기,
+2024,annual,11011,현금흐름표,-표준계정코드 미사용-,복구충당부채의 감소,제 16 기,,KRW,제 15 기,22190000.0
+2024,annual,11011,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 16 기,,KRW,제 15 기,110110500.0
+2024,annual,11011,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 증가,제 16 기,10537500.0,KRW,제 15 기,420189000.0
+2024,annual,11011,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 16 기,10000000.0,KRW,제 15 기,
+2024,annual,11011,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 16 기,396284928.0,KRW,제 15 기,687975800.0
+2024,annual,11011,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 16 기,-11100513095.0,KRW,제 15 기,-7895405021.0
+2024,annual,11011,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 16 기,-3767506524.0,KRW,제 15 기,685427427.0
+2024,annual,11011,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 16 기,1695208444.0,KRW,제 15 기,1461898343.0
+2024,annual,11011,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),제 16 기,28561340.0,KRW,제 15 기,4331760.0
+2024,annual,11011,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),제 16 기,396513744.0,KRW,제 15 기,203855713.0
+2024,annual,11011,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 16 기,268313288.0,KRW,제 15 기,82402920.0
+2024,annual,11011,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기,-8871453219.0,KRW,제 15 기,-9916946238.0
+2024,annual,11011,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 16 기,,KRW,제 15 기,9.0
+2024,annual,11011,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 16 기,6658765728.0,KRW,제 15 기,-6156225489.0
+2024,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 16 기,,KRW,제 15 기,-22220453.0
+2024,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 16 기,,KRW,제 15 기,-4130300453.0
+2024,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 16 기,,KRW,제 15 기,4108080000.0
+2024,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기,8108486575.0,KRW,제 15 기,18008321522.0
+2024,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기,413285791.0,KRW,제 15 기,317489045.0
+2024,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기,5477440000.0,KRW,제 15 기,1369360000.0
+2024,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기,-35970745550.0,KRW,제 15 기,-25988515590.0
+2024,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기,38188506334.0,KRW,제 15 기,42309988067.0
+2024,annual,11011,자본변동표,-표준계정코드 미사용-,확정급여제도 재측정요소,제 16 기,-352482794.0,KRW,제 15 기,-365283722.0
+2024,annual,11011,자본변동표,-표준계정코드 미사용-,확정급여제도 재측정요소,제 16 기,-352482794.0,KRW,제 15 기,-65283722.0
+2024,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 16 기,21398870839.0,KRW,제 15 기,8108486575.0
+2024,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 16 기,287206588.0,KRW,제 15 기,413285791.0
+2024,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 16 기,-45194681563.0,KRW,제 15 기,-35970745550.0
+2024,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 16 기,6275840000.0,KRW,제 15 기,5477440000.0
+2024,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 16 기,60030505814.0,KRW,제 15 기,38188506334.0
+2024,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기,782180597.0,KRW,제 15 기,104615466.0
+2024,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기,-126079203.0,KRW,제 15 기,95786746.0
+2024,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기,779359800.0,KRW,제 15 기,8818720.0
+2024,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기,128900000.0,KRW,제 15 기,
+2024,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기,21732139680.0,KRW,제 15 기,
+2024,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기,669500000.0,KRW,제 15 기,
+2024,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기,21062639680.0,KRW,제 15 기,
+2024,annual,11011,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기,-8871453219.0,KRW,제 15 기,-9916946238.0
+2024,annual,11011,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기,-8871453219.0,KRW,제 15 기,-9916946238.0
+2024,half_year,11012,재무상태표,ifrs-full_Assets,자산총계,제 16 기 반기말,34804712990.0,KRW,제 15 기말,17146655638.0
+2024,half_year,11012,재무상태표,ifrs-full_CurrentAssets,유동자산,제 16 기 반기말,23943128482.0,KRW,제 15 기말,5870794146.0
+2024,half_year,11012,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 16 기 반기말,22330006854.0,KRW,제 15 기말,4142264509.0
+2024,half_year,11012,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 16 기 반기말,171520.0,KRW,제 15 기말,12685490.0
+2024,half_year,11012,재무상태표,ifrs-full_Inventories,유동재고자산,제 16 기 반기말,1159857591.0,KRW,제 15 기말,1011017296.0
+2024,half_year,11012,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,제 16 기 반기말,323717166.0,KRW,제 15 기말,187598405.0
+2024,half_year,11012,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,제 16 기 반기말,129375351.0,KRW,제 15 기말,517228446.0
+2024,half_year,11012,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 16 기 반기말,10861584508.0,KRW,제 15 기말,11275861492.0
+2024,half_year,11012,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 16 기 반기말,36699040.0,KRW,제 15 기말,36547417.0
+2024,half_year,11012,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 16 기 반기말,424281024.0,KRW,제 15 기말,408658175.0
+2024,half_year,11012,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 16 기 반기말,10400604444.0,KRW,제 15 기말,10830655900.0
+2024,half_year,11012,재무상태표,dart_CapitalSurplus,자본잉여금,제 16 기 반기말,59252778734.0,KRW,제 15 기말,38188506334.0
+2024,half_year,11012,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 16 기 반기말,441316388.0,KRW,제 15 기말,413285791.0
+2024,half_year,11012,재무상태표,ifrs-full_Equity,자본총계,제 16 기 반기말,24170791843.0,KRW,제 15 기말,8108486575.0
+2024,half_year,11012,재무상태표,ifrs-full_IssuedCapital,자본금,제 16 기 반기말,6146940000.0,KRW,제 15 기말,5477440000.0
+2024,half_year,11012,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 16 기 반기말,-41670243279.0,KRW,제 15 기말,-35970745550.0
+2024,half_year,11012,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 16 기 반기말,34804712990.0,KRW,제 15 기말,17146655638.0
+2024,half_year,11012,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 16 기 반기말,8310335296.0,KRW,제 15 기말,6728865826.0
+2024,half_year,11012,재무상태표,ifrs-full_Borrowings,단기차입금,제 16 기 반기말,6510000000.0,KRW,제 15 기말,4580000000.0
+2024,half_year,11012,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 16 기 반기말,39717197.0,KRW,제 15 기말,39717197.0
+2024,half_year,11012,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,제 16 기 반기말,329538235.0,KRW,제 15 기말,304701936.0
+2024,half_year,11012,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,제 16 기 반기말,763660061.0,KRW,제 15 기말,1145862047.0
+2024,half_year,11012,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,제 16 기 반기말,667419803.0,KRW,제 15 기말,658584646.0
+2024,half_year,11012,재무상태표,ifrs-full_Liabilities,부채총계,제 16 기 반기말,10633921147.0,KRW,제 15 기말,9038169063.0
+2024,half_year,11012,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 16 기 반기말,2323585851.0,KRW,제 15 기말,2309303237.0
+2024,half_year,11012,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 16 기 반기말,1027138579.0,KRW,제 15 기말,847693389.0
+2024,half_year,11012,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,제 16 기 반기말,52701127.0,KRW,제 15 기말,52701127.0
+2024,half_year,11012,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,제 16 기 반기말,1243746145.0,KRW,제 15 기말,1408908721.0
+2024,half_year,11012,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 16 기 반기,-2891224856.0,KRW,,
+2024,half_year,11012,포괄손익계산서,dart_OtherGains,기타이익,제 16 기 반기,2843747.0,KRW,,
+2024,half_year,11012,포괄손익계산서,dart_OtherLosses,기타손실,제 16 기 반기,7.0,KRW,,
+2024,half_year,11012,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 16 기 반기,2810648871.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 16 기 반기,-3014728051.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 16 기 반기,964847564.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 16 기 반기,-269.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 16 기 반기,-269.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 16 기 반기,129698167.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 16 기 반기,3351232.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 16 기 반기,-80575985.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 반기,-3014728051.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 16 기 반기,-3014728051.0,KRW,,
+2024,half_year,11012,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 16 기 반기,884271579.0,KRW,,
+2024,half_year,11012,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 16 기 반기,4142264509.0,KRW,,
+2024,half_year,11012,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 16 기 반기,22330006854.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 16 기 반기,23516735229.0,KRW,,
+2024,half_year,11012,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 16 기 반기,1930000000.0,KRW,,
+2024,half_year,11012,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 16 기 반기,147037171.0,KRW,,
+2024,half_year,11012,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 감소,제 16 기 반기,,KRW,,
+2024,half_year,11012,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,제 16 기 반기,,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_ProceedsFromIssuingShares,주식의 발행,제 16 기 반기,21733772400.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 16 기 반기,-125282433.0,KRW,,
+2024,half_year,11012,현금흐름표,dart_DecreaseInLoans,대여금의 감소,제 16 기 반기,,KRW,,
+2024,half_year,11012,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 16 기 반기,,KRW,,
+2024,half_year,11012,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 증가,제 16 기 반기,10537500.0,KRW,,
+2024,half_year,11012,현금흐름표,-표준계정코드 미사용-,복구충당부채의 감소,제 16 기 반기,,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 16 기 반기,10000000.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 16 기 반기,104744933.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 16 기 반기,-5203710492.0,KRW,,
+2024,half_year,11012,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 16 기 반기,-238130040.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 16 기 반기,952993520.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),제 16 기 반기,-12513970.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,제 16 기 반기,233170887.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 16 기 반기,1580674.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 반기,-3014728051.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 16 기 반기,41.0,KRW,,
+2024,half_year,11012,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 16 기 반기,18187742345.0,KRW,,
+2024,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 반기,8108486575.0,KRW,,
+2024,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 반기,38188506334.0,KRW,,
+2024,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 반기,5477440000.0,KRW,,
+2024,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 반기,-35970745550.0,KRW,,
+2024,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 반기,413285791.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 16 기 반기,24170791843.0,KRW,,8108486575.0
+2024,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 16 기 반기,441316388.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 16 기 반기,-41670243279.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 16 기 반기,6146940000.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 16 기 반기,59252778734.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 16 기 반기,28030597.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 16 기 반기,28030597.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기 반기,21064272400.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기 반기,669500000.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기 반기,21733772400.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 반기,-3014728051.0,KRW,,
+2024,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 반기,-5699497729.0,KRW,,
+2024,quarterly,11014,재무상태표,ifrs-full_Assets,자산총계,제 16 기 3분기말,27526468729.0,KRW,제 15 기말,17146655638.0
+2024,quarterly,11014,재무상태표,ifrs-full_CurrentAssets,유동자산,제 16 기 3분기말,16761370013.0,KRW,제 15 기말,5870794146.0
+2024,quarterly,11014,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 16 기 3분기말,14635826433.0,KRW,제 15 기말,4142264509.0
+2024,quarterly,11014,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 16 기 3분기말,25681640.0,KRW,제 15 기말,12685490.0
+2024,quarterly,11014,재무상태표,ifrs-full_Inventories,유동재고자산,제 16 기 3분기말,1311268532.0,KRW,제 15 기말,1011017296.0
+2024,quarterly,11014,재무상태표,ifrs-full_OtherCurrentAssets,기타유동자산,제 16 기 3분기말,602711262.0,KRW,제 15 기말,187598405.0
+2024,quarterly,11014,재무상태표,ifrs-full_TradeAndOtherCurrentReceivables,매출채권 및 기타유동채권,제 16 기 3분기말,185882146.0,KRW,제 15 기말,517228446.0
+2024,quarterly,11014,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 16 기 3분기말,10765098716.0,KRW,제 15 기말,11275861492.0
+2024,quarterly,11014,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 16 기 3분기말,31774879.0,KRW,제 15 기말,36547417.0
+2024,quarterly,11014,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 16 기 3분기말,426854910.0,KRW,제 15 기말,408658175.0
+2024,quarterly,11014,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 16 기 3분기말,10306468927.0,KRW,제 15 기말,10830655900.0
+2024,quarterly,11014,재무상태표,dart_CapitalSurplus,자본잉여금,제 16 기 3분기말,60030505814.0,KRW,제 15 기말,38188506334.0
+2024,quarterly,11014,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 16 기 3분기말,287206588.0,KRW,제 15 기말,413285791.0
+2024,quarterly,11014,재무상태표,ifrs-full_Equity,자본총계,제 16 기 3분기말,21470570773.0,KRW,제 15 기말,8108486575.0
+2024,quarterly,11014,재무상태표,ifrs-full_IssuedCapital,자본금,제 16 기 3분기말,6275840000.0,KRW,제 15 기말,5477440000.0
+2024,quarterly,11014,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 16 기 3분기말,-45122981629.0,KRW,제 15 기말,-35970745550.0
+2024,quarterly,11014,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 16 기 3분기말,27526468729.0,KRW,제 15 기말,17146655638.0
+2024,quarterly,11014,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 16 기 3분기말,3676245929.0,KRW,제 15 기말,6728865826.0
+2024,quarterly,11014,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 16 기 3분기말,39717197.0,KRW,제 15 기말,39717197.0
+2024,quarterly,11014,재무상태표,ifrs-full_OtherCurrentFinancialLiabilities,기타유동금융부채,제 16 기 3분기말,351198438.0,KRW,제 15 기말,304701936.0
+2024,quarterly,11014,재무상태표,ifrs-full_OtherCurrentLiabilities,기타 유동부채,제 16 기 3분기말,722446515.0,KRW,제 15 기말,1145862047.0
+2024,quarterly,11014,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 16 기 3분기말,1580000000.0,KRW,제 15 기말,4580000000.0
+2024,quarterly,11014,재무상태표,ifrs-full_TradeAndOtherCurrentPayables,매입채무 및 기타유동채무,제 16 기 3분기말,982883779.0,KRW,제 15 기말,658584646.0
+2024,quarterly,11014,재무상태표,ifrs-full_Liabilities,부채총계,제 16 기 3분기말,6055897956.0,KRW,제 15 기말,9038169063.0
+2024,quarterly,11014,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 16 기 3분기말,2379652027.0,KRW,제 15 기말,2309303237.0
+2024,quarterly,11014,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 16 기 3분기말,1129513847.0,KRW,제 15 기말,847693389.0
+2024,quarterly,11014,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,제 16 기 3분기말,52701127.0,KRW,제 15 기말,52701127.0
+2024,quarterly,11014,재무상태표,ifrs-full_OtherNoncurrentFinancialLiabilities,기타비유동금융부채,제 16 기 3분기말,1197437053.0,KRW,제 15 기말,1408908721.0
+2024,quarterly,11014,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 16 기 3분기,-3534057389.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,dart_OtherGains,기타이익,제 16 기 3분기,8656185.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,dart_OtherLosses,기타손실,제 16 기 3분기,9.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 16 기 3분기,3497560202.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 16 기 3분기,-3452738350.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 16 기 3분기,1020602566.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 16 기 3분기,-278.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 16 기 3분기,-278.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 16 기 3분기,95562353.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 16 기 3분기,168225216.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 16 기 3분기,-36497187.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 3분기,-3452738350.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 16 기 3분기,-3452738350.0,KRW,,
+2024,quarterly,11014,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 16 기 3분기,984105379.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 16 기 3분기,4142264509.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 16 기 3분기,14635826433.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 16 기 3분기,19259076776.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_PaymentForStockIssueCost,신주발행비 지급,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사,제 16 기 3분기,752517280.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 16 기 3분기,1930000000.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,제 16 기 3분기,4930000000.0,KRW,,
+2024,quarterly,11014,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 16 기 3분기,227212904.0,KRW,,
+2024,quarterly,11014,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 감소,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,제 16 기 3분기,21733772400.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 16 기 3분기,-254194935.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_DecreaseInLoans,대여금의 감소,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,현금흐름표,-표준계정코드 미사용-,복구충당부채의 감소,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 증가,제 16 기 3분기,10537500.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 16 기 3분기,10000000.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 16 기 3분기,233657435.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 16 기 3분기,-8511319932.0,KRW,,
+2024,quarterly,11014,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 16 기 3분기,-447518541.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 16 기 3분기,1267406809.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),제 16 기 3분기,12996150.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),제 16 기 3분기,333208001.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 16 기 3분기,167232030.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 3분기,-3452738350.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 16 기 3분기,15.0,KRW,,
+2024,quarterly,11014,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 16 기 3분기,10493561924.0,KRW,,
+2024,quarterly,11014,자본변동표,dart_BonusIssue,무상증자,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,자본변동표,dart_BonusIssue,무상증자,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,자본변동표,dart_BonusIssue,무상증자,제 16 기 3분기,,KRW,,
+2024,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 3분기,8108486575.0,KRW,,
+2024,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 3분기,38188506334.0,KRW,,
+2024,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 3분기,5477440000.0,KRW,,
+2024,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 3분기,-35970745550.0,KRW,,
+2024,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 16 기 3분기,413285791.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 16 기 3분기,21470570773.0,KRW,,8108486575.0
+2024,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 16 기 3분기,287206588.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 16 기 3분기,-45122981629.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 16 기 3분기,6275840000.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 16 기 3분기,60030505814.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기 3분기,780547877.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기 3분기,-126079203.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기 3분기,777727080.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 16 기 3분기,128900000.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기 3분기,21064272400.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기 3분기,21733772400.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 16 기 3분기,669500000.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 3분기,-3452738350.0,KRW,,
+2024,quarterly,11014,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 16 기 3분기,-9152236079.0,KRW,,
+2025,annual,11011,재무상태표,ifrs-full_Assets,자산총계,제 17 기,54204850237.0,KRW,제 16 기,28083739034.0
+2025,annual,11011,재무상태표,ifrs-full_CurrentAssets,유동자산,제 17 기,40444348690.0,KRW,제 16 기,16442253238.0
+2025,annual,11011,재무상태표,dart_ShortTermAdvancePayments,선급금,제 17 기,3103851116.0,KRW,제 16 기,71495702.0
+2025,annual,11011,재무상태표,dart_ShortTermLoans,단기대여금,제 17 기,30000000.0,KRW,제 16 기,
+2025,annual,11011,재무상태표,dart_ShortTermOtherReceivables,미수금,제 17 기,73244630.0,KRW,제 16 기,5082000.0
+2025,annual,11011,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 17 기,86552300.0,KRW,제 16 기,59569866.0
+2025,annual,11011,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 17 기,22014586646.0,KRW,제 16 기,4237414037.0
+2025,annual,11011,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 17 기,11095579715.0,KRW,제 16 기,10801030237.0
+2025,annual,11011,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 17 기,33666000.0,KRW,제 16 기,41246830.0
+2025,annual,11011,재무상태표,ifrs-full_Inventories,재고자산,제 17 기,4006868283.0,KRW,제 16 기,1226414566.0
+2025,annual,11011,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 17 기,13760501547.0,KRW,제 16 기,11641485796.0
+2025,annual,11011,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,제 17 기,54256758.0,KRW,제 16 기,
+2025,annual,11011,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산,제 17 기,999999963.0,KRW,제 16 기,999999963.0
+2025,annual,11011,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 17 기,151075052.0,KRW,제 16 기,26850718.0
+2025,annual,11011,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 17 기,895106772.0,KRW,제 16 기,429449830.0
+2025,annual,11011,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 17 기,11660063002.0,KRW,제 16 기,10185185285.0
+2025,annual,11011,재무상태표,ifrs-full_Equity,자본총계,제 17 기,39620897715.0,KRW,제 16 기,21398870839.0
+2025,annual,11011,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,제 17 기,39564260929.0,KRW,제 16 기,21398870839.0
+2025,annual,11011,재무상태표,dart_CapitalSurplus,자본잉여금,제 17 기,8818720.0,KRW,제 16 기,8818720.0
+2025,annual,11011,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 17 기,1424776560.0,KRW,제 16 기,287206588.0
+2025,annual,11011,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,재무상태표,ifrs-full_IssuedCapital,자본금,제 17 기,6332940000.0,KRW,제 16 기,6275840000.0
+2025,annual,11011,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 17 기,-28997983106.0,KRW,제 16 기,-45194681563.0
+2025,annual,11011,재무상태표,ifrs-full_SharePremium,주식발행초과금,제 17 기,60784296294.0,KRW,제 16 기,60021687094.0
+2025,annual,11011,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,제 17 기,56636786.0,KRW,제 16 기,
+2025,annual,11011,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 17 기,54204850237.0,KRW,제 16 기,28083739034.0
+2025,annual,11011,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 17 기,10804616483.0,KRW,제 16 기,3879868600.0
+2025,annual,11011,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 17 기,246267146.0,KRW,제 16 기,241347870.0
+2025,annual,11011,재무상태표,dart_ShortTermAdvancesCustomers,선수금,제 17 기,53109091.0,KRW,제 16 기,63239560.0
+2025,annual,11011,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 17 기,2000000.0,KRW,제 16 기,2000000.0
+2025,annual,11011,재무상태표,dart_ShortTermOtherPayables,미지급금,제 17 기,4135596358.0,KRW,제 16 기,735104071.0
+2025,annual,11011,재무상태표,dart_ShortTermTradePayables,단기매입채무,제 17 기,3737185522.0,KRW,제 16 기,243669654.0
+2025,annual,11011,재무상태표,dart_ShortTermWithholdings,예수금,제 17 기,109590187.0,KRW,제 16 기,76311520.0
+2025,annual,11011,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 17 기,30117609.0,KRW,제 16 기,550666131.0
+2025,annual,11011,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,제 17 기,710218497.0,KRW,제 16 기,362679322.0
+2025,annual,11011,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 17 기,200532073.0,KRW,제 16 기,24850472.0
+2025,annual,11011,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 17 기,1580000000.0,KRW,제 16 기,1580000000.0
+2025,annual,11011,재무상태표,ifrs-full_Liabilities,부채총계,제 17 기,14583952522.0,KRW,제 16 기,6684868195.0
+2025,annual,11011,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 17 기,3779336039.0,KRW,제 16 기,2804999595.0
+2025,annual,11011,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 17 기,2124227511.0,KRW,제 16 기,1648421942.0
+2025,annual,11011,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 17 기,1523913959.0,KRW,제 16 기,1102980607.0
+2025,annual,11011,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,제 17 기,131194569.0,KRW,제 16 기,53597046.0
+2025,annual,11011,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 17 기,16327166470.0,KRW,제 16 기,-8681501062.0
+2025,annual,11011,포괄손익계산서,dart_OtherGains,기타이익,제 17 기,4510716.0,KRW,제 16 기,12999960.0
+2025,annual,11011,포괄손익계산서,dart_OtherLosses,기타손실,제 17 기,224442219.0,KRW,제 16 기,18.0
+2025,annual,11011,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 17 기,18556417822.0,KRW,제 16 기,12117251677.0
+2025,annual,11011,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 17 기,16164747704.0,KRW,제 16 기,-9223936013.0
+2025,annual,11011,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",제 17 기,-43363214.0,KRW,제 16 기,
+2025,annual,11011,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",제 17 기,16208110918.0,KRW,제 16 기,-9223936013.0
+2025,annual,11011,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 17 기,13287153427.0,KRW,제 16 기,4664004195.0
+2025,annual,11011,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 17 기,427.0,KRW,제 16 기,-251.0
+2025,annual,11011,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 17 기,427.0,KRW,제 16 기,-251.0
+2025,annual,11011,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 17 기,239423547.0,KRW,제 16 기,394223337.0
+2025,annual,11011,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 17 기,236261432.0,KRW,제 16 기,284405124.0
+2025,annual,11011,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 17 기,34883584292.0,KRW,제 16 기,3435750615.0
+2025,annual,11011,포괄손익계산서,ifrs-full_IncomeTaxExpenseContinuingOperations,법인세비용(수익),제 17 기,58494309.0,KRW,제 16 기,93133886.0
+2025,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,제 17 기,119169161.0,KRW,제 16 기,-352482794.0
+2025,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류되지 않는항목(세후기타포괄손익),제 17 기,107756700.0,KRW,제 16 기,-352482794.0
+2025,annual,11011,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans,확정급여제도의 재측정손익(세후기타포괄손익),제 17 기,107756700.0,KRW,제 16 기,-352482794.0
+2025,annual,11011,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기,16045578543.0,KRW,제 16 기,-8871453219.0
+2025,annual,11011,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),제 17 기,-43363214.0,KRW,제 16 기,
+2025,annual,11011,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),제 17 기,16088941757.0,KRW,제 16 기,-8871453219.0
+2025,annual,11011,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 17 기,16104072852.0,KRW,제 16 기,-8778319333.0
+2025,annual,11011,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 17 기,48170737719.0,KRW,제 16 기,8099754810.0
+2025,annual,11011,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 17 기,10801030237.0,KRW,제 16 기,4142264509.0
+2025,annual,11011,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 17 기,11095579715.0,KRW,제 16 기,10801030237.0
+2025,annual,11011,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 17 기,227625241.0,KRW,제 16 기,19176101214.0
+2025,annual,11011,현금흐름표,dart_PaymentForStockIssueCost,신주발행비 지급,제 17 기,,KRW,제 16 기,
+2025,annual,11011,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사,제 17 기,648521000.0,KRW,제 16 기,752517280.0
+2025,annual,11011,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 17 기,,KRW,제 16 기,1930000000.0
+2025,annual,11011,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,제 17 기,,KRW,제 16 기,4930000000.0
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 17 기,-420895759.0,KRW,제 16 기,-310188466.0
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 감소,제 17 기,,KRW,제 16 기,
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,유동성장기차입금의 상환,제 17 기,,KRW,제 16 기,
+2025,annual,11011,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,제 17 기,,KRW,제 16 기,21733772400.0
+2025,annual,11011,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 17 기,-2030589550.0,KRW,제 16 기,-1416822391.0
+2025,annual,11011,현금흐름표,dart_DecreaseInLoans,대여금의 감소,제 17 기,,KRW,제 16 기,
+2025,annual,11011,현금흐름표,dart_IncreaseInLoans,대여금의 증가,제 17 기,30000000.0,KRW,제 16 기,
+2025,annual,11011,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,제 17 기,,KRW,제 16 기,999999963.0
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,사업결합으로 인한 현금유입액,제 17 기,100000000.0,KRW,제 16 기,
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,복구충당부채의 감소,제 17 기,,KRW,제 16 기,
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 17 기,25450000.0,KRW,제 16 기,
+2025,annual,11011,현금흐름표,-표준계정코드 미사용-,기타비유동자산의증가,제 17 기,494385200.0,KRW,제 16 기,10537500.0
+2025,annual,11011,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 17 기,156053000.0,KRW,제 16 기,10000000.0
+2025,annual,11011,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 17 기,1475601350.0,KRW,제 16 기,396284928.0
+2025,annual,11011,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 17 기,2086101326.0,KRW,제 16 기,-11100513095.0
+2025,annual,11011,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 17 기,-17365580778.0,KRW,제 16 기,-3767506524.0
+2025,annual,11011,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 17 기,3414582114.0,KRW,제 16 기,1695208444.0
+2025,annual,11011,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),제 17 기,-7580830.0,KRW,제 16 기,28561340.0
+2025,annual,11011,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),제 17 기,234252258.0,KRW,제 16 기,396513744.0
+2025,annual,11011,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 17 기,218192875.0,KRW,제 16 기,268313288.0
+2025,annual,11011,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기,16045578543.0,KRW,제 16 기,-8871453219.0
+2025,annual,11011,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 17 기,294549478.0,KRW,제 16 기,6658765728.0
+2025,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 17 기,,KRW,제 16 기,
+2025,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 17 기,,KRW,제 16 기,
+2025,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 17 기,,KRW,제 16 기,
+2025,annual,11011,자본변동표,dart_BonusIssue,무상증자,제 17 기,,KRW,제 16 기,
+2025,annual,11011,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상기업의 변동,제 17 기,100000000.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상기업의 변동,제 17 기,100000000.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기,287206588.0,KRW,제 16 기,413285791.0
+2025,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기,21398870839.0,KRW,제 16 기,8108486575.0
+2025,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기,21398870839.0,KRW,제 16 기,8108486575.0
+2025,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기,-45194681563.0,KRW,제 16 기,-35970745550.0
+2025,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기,60030505814.0,KRW,제 16 기,38188506334.0
+2025,annual,11011,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기,6275840000.0,KRW,제 16 기,5477440000.0
+2025,annual,11011,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,-표준계정코드 미사용-,확정급여제도 재측정요소,제 17 기,107756700.0,KRW,제 16 기,-352482794.0
+2025,annual,11011,자본변동표,-표준계정코드 미사용-,확정급여제도 재측정요소,제 17 기,107756700.0,KRW,제 16 기,-352482794.0
+2025,annual,11011,자본변동표,-표준계정코드 미사용-,확정급여제도 재측정요소,제 17 기,107756700.0,KRW,제 16 기,-352482794.0
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,56636786.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,39620897715.0,KRW,제 16 기,21398870839.0
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,39564260929.0,KRW,제 16 기,21398870839.0
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,1424776560.0,KRW,제 16 기,287206588.0
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,11412461.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,-28997983106.0,KRW,제 16 기,-45194681563.0
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,6332940000.0,KRW,제 16 기,6275840000.0
+2025,annual,11011,자본변동표,ifrs-full_Equity,자본총계,제 17 기,60793115014.0,KRW,제 16 기,60030505814.0
+2025,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기,1957279172.0,KRW,제 16 기,782180597.0
+2025,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기,1957279172.0,KRW,제 16 기,782180597.0
+2025,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기,1137569972.0,KRW,제 16 기,-126079203.0
+2025,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기,762609200.0,KRW,제 16 기,779359800.0
+2025,annual,11011,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기,57100000.0,KRW,제 16 기,128900000.0
+2025,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기,,KRW,제 16 기,21732139680.0
+2025,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기,,KRW,제 16 기,21732139680.0
+2025,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기,,KRW,제 16 기,669500000.0
+2025,annual,11011,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기,,KRW,제 16 기,21062639680.0
+2025,annual,11011,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기,16045578543.0,KRW,제 16 기,-8871453219.0
+2025,annual,11011,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기,-43363214.0,KRW,제 16 기,
+2025,annual,11011,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기,16088941757.0,KRW,제 16 기,-8871453219.0
+2025,annual,11011,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기,16088941757.0,KRW,제 16 기,-8871453219.0
+2025,half_year,11012,재무상태표,ifrs-full_Assets,자산총계,제 17 기 반기말,31243263846.0,KRW,제 16 기말,28083739034.0
+2025,half_year,11012,재무상태표,ifrs-full_CurrentAssets,유동자산,제 17 기 반기말,19559713339.0,KRW,제 16 기말,16442253238.0
+2025,half_year,11012,재무상태표,dart_ShortTermAdvancePayments,선급금,제 17 기 반기말,328119190.0,KRW,제 16 기말,71495702.0
+2025,half_year,11012,재무상태표,dart_ShortTermOtherReceivables,미수금,제 17 기 반기말,21285046.0,KRW,제 16 기말,5082000.0
+2025,half_year,11012,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 17 기 반기말,38230864.0,KRW,제 16 기말,59569866.0
+2025,half_year,11012,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 17 기 반기말,7487741423.0,KRW,제 16 기말,4237414037.0
+2025,half_year,11012,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 17 기 반기말,9843979734.0,KRW,제 16 기말,10801030237.0
+2025,half_year,11012,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 17 기 반기말,18546290.0,KRW,제 16 기말,41246830.0
+2025,half_year,11012,재무상태표,ifrs-full_Inventories,재고자산,제 17 기 반기말,1821810792.0,KRW,제 16 기말,1226414566.0
+2025,half_year,11012,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 17 기 반기말,11683550507.0,KRW,제 16 기말,11641485796.0
+2025,half_year,11012,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,제 17 기 반기말,62384645.0,KRW,제 16 기말,
+2025,half_year,11012,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산,제 17 기 반기말,999999963.0,KRW,제 16 기말,999999963.0
+2025,half_year,11012,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 17 기 반기말,146067344.0,KRW,제 16 기말,26850718.0
+2025,half_year,11012,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 17 기 반기말,487483462.0,KRW,제 16 기말,429449830.0
+2025,half_year,11012,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 17 기 반기말,9987615093.0,KRW,제 16 기말,10185185285.0
+2025,half_year,11012,재무상태표,ifrs-full_Equity,자본총계,제 17 기 반기말,22761608796.0,KRW,제 16 기말,21398870839.0
+2025,half_year,11012,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,제 17 기 반기말,22664070618.0,KRW,제 16 기말,21398870839.0
+2025,half_year,11012,재무상태표,dart_CapitalSurplus,자본잉여금,제 17 기 반기말,60097777014.0,KRW,제 16 기말,60030505814.0
+2025,half_year,11012,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 17 기 반기말,556006182.0,KRW,제 16 기말,287206588.0
+2025,half_year,11012,재무상태표,ifrs-full_IssuedCapital,자본금,제 17 기 반기말,6295440000.0,KRW,제 16 기말,6275840000.0
+2025,half_year,11012,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 17 기 반기말,-44285152578.0,KRW,제 16 기말,-45194681563.0
+2025,half_year,11012,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,제 17 기 반기말,97538178.0,KRW,제 16 기말,
+2025,half_year,11012,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 17 기 반기말,31243263846.0,KRW,제 16 기말,28083739034.0
+2025,half_year,11012,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 17 기 반기말,5597090513.0,KRW,제 16 기말,3879868600.0
+2025,half_year,11012,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 17 기 반기말,242210206.0,KRW,제 16 기말,241347870.0
+2025,half_year,11012,재무상태표,dart_ShortTermAdvancesCustomers,선수금,제 17 기 반기말,,KRW,제 16 기말,63239560.0
+2025,half_year,11012,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 17 기 반기말,2000000.0,KRW,제 16 기말,2000000.0
+2025,half_year,11012,재무상태표,dart_ShortTermOtherPayables,미지급금,제 17 기 반기말,1018133493.0,KRW,제 16 기말,735104071.0
+2025,half_year,11012,재무상태표,dart_ShortTermTradePayables,매입채무,제 17 기 반기말,1831508253.0,KRW,제 16 기말,243669654.0
+2025,half_year,11012,재무상태표,dart_ShortTermWithholdings,예수금,제 17 기 반기말,87046050.0,KRW,제 16 기말,76311520.0
+2025,half_year,11012,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 17 기 반기말,401496430.0,KRW,제 16 기말,550666131.0
+2025,half_year,11012,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,제 17 기 반기말,391617954.0,KRW,제 16 기말,362679322.0
+2025,half_year,11012,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 17 기 반기말,43078127.0,KRW,제 16 기말,24850472.0
+2025,half_year,11012,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 17 기 반기말,1580000000.0,KRW,제 16 기말,1580000000.0
+2025,half_year,11012,재무상태표,ifrs-full_Liabilities,부채총계,제 17 기 반기말,8481655050.0,KRW,제 16 기말,6684868195.0
+2025,half_year,11012,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 17 기 반기말,2884564537.0,KRW,제 16 기말,2804999595.0
+2025,half_year,11012,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 17 기 반기말,1902624734.0,KRW,제 16 기말,1648421942.0
+2025,half_year,11012,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 17 기 반기말,928342757.0,KRW,제 16 기말,1102980607.0
+2025,half_year,11012,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,제 17 기 반기말,53597046.0,KRW,제 16 기말,53597046.0
+2025,half_year,11012,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 17 기 반기,1485484198.0,KRW,,
+2025,half_year,11012,포괄손익계산서,dart_OtherGains,기타이익,제 17 기 반기,775052.0,KRW,,
+2025,half_year,11012,포괄손익계산서,dart_OtherLosses,기타손실,제 17 기 반기,32410.0,KRW,,
+2025,half_year,11012,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 17 기 반기,4259092593.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 17 기 반기,1499895527.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",제 17 기 반기,-2461822.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",제 17 기 반기,1502357349.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 17 기 반기,2209506858.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 17 기 반기,119.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 17 기 반기,119.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 17 기 반기,55060696.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 17 기 반기,68729383.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 17 기 반기,5744576791.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 반기,1499895527.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),제 17 기 반기,-2461822.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),제 17 기 반기,1502357349.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 17 기 반기,1499895527.0,KRW,,
+2025,half_year,11012,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 17 기 반기,7954083649.0,KRW,,
+2025,half_year,11012,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 17 기 반기,10801030237.0,KRW,,
+2025,half_year,11012,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 17 기 반기,9843979734.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 17 기 반기,-108508386.0,KRW,,
+2025,half_year,11012,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사로 인한 현금유입,제 17 기 반기,68016000.0,KRW,,
+2025,half_year,11012,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 17 기 반기,,KRW,,
+2025,half_year,11012,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 17 기 반기,176524386.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_ProceedsFromIssuingShares,주식의 발행,제 17 기 반기,,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 17 기 반기,-435919374.0,KRW,,
+2025,half_year,11012,현금흐름표,-표준계정코드 미사용-,사업결합으로 인한 현금유입,제 17 기 반기,100000000.0,KRW,,
+2025,half_year,11012,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 증가,제 17 기 반기,52780000.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 17 기 반기,129653000.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 17 기 반기,353486374.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 17 기 반기,-412622743.0,KRW,,
+2025,half_year,11012,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 17 기 반기,-2497735840.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 17 기 반기,1152504762.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,영업활동으로 분류된 법인세납부(환급),제 17 기 반기,-22700540.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,제 17 기 반기,117607650.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 17 기 반기,120448282.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 반기,1499895527.0,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 17 기 반기,,KRW,,
+2025,half_year,11012,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 17 기 반기,-957050503.0,KRW,,
+2025,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 반기,21398870839.0,KRW,,
+2025,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 반기,21398870839.0,KRW,,
+2025,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 반기,60030505814.0,KRW,,
+2025,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 반기,6275840000.0,KRW,,
+2025,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 반기,-45194681563.0,KRW,,
+2025,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 반기,287206588.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,22761608796.0,KRW,,21398870839.0
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,97538178.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,22664070618.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,556006182.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,-44285152578.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,60097777014.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 17 기 반기,6295440000.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,연결대상기업의 변동,제 17 기 반기,100000000.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl,연결대상기업의 변동,제 17 기 반기,100000000.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 17 기 반기,355670794.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 17 기 반기,355670794.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 17 기 반기,67271200.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 17 기 반기,19600000.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식매수선택권,제 17 기 반기,268799594.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 반기,,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 반기,,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 반기,,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 반기,,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 반기,909528985.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 반기,1499895527.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 반기,-2461822.0,KRW,,
+2025,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 반기,909528985.0,KRW,,
+2025,quarterly,11013,재무상태표,ifrs-full_Assets,자산총계,제 17 기 1분기말,27974203439.0,KRW,제 16 기말,28083739034.0
+2025,quarterly,11013,재무상태표,ifrs-full_CurrentAssets,유동자산,제 17 기 1분기말,16373026970.0,KRW,제 16 기말,16442253238.0
+2025,quarterly,11013,재무상태표,dart_ShortTermAdvancePayments,선급금,제 17 기 1분기말,235126298.0,KRW,제 16 기말,71495702.0
+2025,quarterly,11013,재무상태표,dart_ShortTermOtherReceivables,미수금,제 17 기 1분기말,64249446.0,KRW,제 16 기말,5082000.0
+2025,quarterly,11013,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 17 기 1분기말,85674466.0,KRW,제 16 기말,59569866.0
+2025,quarterly,11013,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 17 기 1분기말,3352778581.0,KRW,제 16 기말,4237414037.0
+2025,quarterly,11013,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 17 기 1분기말,11373740924.0,KRW,제 16 기말,10801030237.0
+2025,quarterly,11013,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 17 기 1분기말,49945830.0,KRW,제 16 기말,41246830.0
+2025,quarterly,11013,재무상태표,ifrs-full_Inventories,재고자산,제 17 기 1분기말,1211511425.0,KRW,제 16 기말,1226414566.0
+2025,quarterly,11013,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 17 기 1분기말,11601176469.0,KRW,제 16 기말,11641485796.0
+2025,quarterly,11013,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 17 기 1분기말,26132168.0,KRW,제 16 기말,26850718.0
+2025,quarterly,11013,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 17 기 1분기말,509054608.0,KRW,제 16 기말,429449830.0
+2025,quarterly,11013,재무상태표,ifrs-full_OtherNoncurrentFinancialAssets,기타비유동금융자산,제 17 기 1분기말,999999963.0,KRW,제 16 기말,999999963.0
+2025,quarterly,11013,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 17 기 1분기말,10065989730.0,KRW,제 16 기말,10185185285.0
+2025,quarterly,11013,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 17 기 1분기말,350031724.0,KRW,제 16 기말,287206588.0
+2025,quarterly,11013,재무상태표,dart_OtherCapitalSurplus,기타자본잉여금,제 17 기 1분기말,8818720.0,KRW,제 16 기말,8818720.0
+2025,quarterly,11013,재무상태표,ifrs-full_Equity,자본총계,제 17 기 1분기말,20955738811.0,KRW,제 16 기말,21398870839.0
+2025,quarterly,11013,재무상태표,ifrs-full_IssuedCapital,자본금,제 17 기 1분기말,6295440000.0,KRW,제 16 기말,6275840000.0
+2025,quarterly,11013,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 17 기 1분기말,-45787509927.0,KRW,제 16 기말,-45194681563.0
+2025,quarterly,11013,재무상태표,ifrs-full_SharePremium,주식발행초과금,제 17 기 1분기말,60088958294.0,KRW,제 16 기말,60021687094.0
+2025,quarterly,11013,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 17 기 1분기말,27974203439.0,KRW,제 16 기말,28083739034.0
+2025,quarterly,11013,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 17 기 1분기말,4176735182.0,KRW,제 16 기말,3879868600.0
+2025,quarterly,11013,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 17 기 1분기말,241057875.0,KRW,제 16 기말,241347870.0
+2025,quarterly,11013,재무상태표,dart_ShortTermAdvancesCustomers,선수금,제 17 기 1분기말,,KRW,제 16 기말,63239560.0
+2025,quarterly,11013,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 17 기 1분기말,2000000.0,KRW,제 16 기말,2000000.0
+2025,quarterly,11013,재무상태표,dart_ShortTermOtherPayables,미지급금,제 17 기 1분기말,721509067.0,KRW,제 16 기말,735104071.0
+2025,quarterly,11013,재무상태표,dart_ShortTermTradePayables,매입채무,제 17 기 1분기말,660056638.0,KRW,제 16 기말,243669654.0
+2025,quarterly,11013,재무상태표,dart_ShortTermWithholdings,예수금,제 17 기 1분기말,14938030.0,KRW,제 16 기말,76311520.0
+2025,quarterly,11013,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 17 기 1분기말,549057113.0,KRW,제 16 기말,550666131.0
+2025,quarterly,11013,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동리스부채,제 17 기 1분기말,380754976.0,KRW,제 16 기말,362679322.0
+2025,quarterly,11013,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 17 기 1분기말,27361483.0,KRW,제 16 기말,24850472.0
+2025,quarterly,11013,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 17 기 1분기말,1580000000.0,KRW,제 16 기말,1580000000.0
+2025,quarterly,11013,재무상태표,ifrs-full_Liabilities,부채총계,제 17 기 1분기말,7018464628.0,KRW,제 16 기말,6684868195.0
+2025,quarterly,11013,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 17 기 1분기말,2841729446.0,KRW,제 16 기말,2804999595.0
+2025,quarterly,11013,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 17 기 1분기말,1757907043.0,KRW,제 16 기말,1648421942.0
+2025,quarterly,11013,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 17 기 1분기말,1030225357.0,KRW,제 16 기말,1102980607.0
+2025,quarterly,11013,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,제 17 기 1분기말,53597046.0,KRW,제 16 기말,53597046.0
+2025,quarterly,11013,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 17 기 1분기,-588030133.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,dart_OtherGains,기타이익,제 17 기 1분기,760000.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,dart_OtherLosses,기타손실,제 17 기 1분기,5500000.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 17 기 1분기,3219456453.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 17 기 1분기,-592828364.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 17 기 1분기,1436501718.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 17 기 1분기,-47.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 17 기 1분기,-47.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 17 기 1분기,60744280.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 17 기 1분기,60686049.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 17 기 1분기,2631426320.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 1분기,-592828364.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 17 기 1분기,-592828364.0,KRW,,
+2025,quarterly,11013,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 17 기 1분기,4067928038.0,KRW,,
+2025,quarterly,11013,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 17 기 1분기,10801030237.0,KRW,,
+2025,quarterly,11013,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 17 기 1분기,11373740924.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 17 기 1분기,-17488764.0,KRW,,
+2025,quarterly,11013,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사,제 17 기 1분기,68016000.0,KRW,,
+2025,quarterly,11013,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 17 기 1분기,,KRW,,
+2025,quarterly,11013,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 17 기 1분기,85504764.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 17 기 1분기,-146407186.0,KRW,,
+2025,quarterly,11013,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 증가,제 17 기 1분기,10655000.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 17 기 1분기,3000000.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 17 기 1분기,132752186.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 17 기 1분기,736606637.0,KRW,,
+2025,quarterly,11013,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 17 기 1분기,832677758.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 17 기 1분기,508273955.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),제 17 기 1분기,8699000.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),제 17 기 1분기,60886368.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 17 기 1분기,58068656.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 1분기,-592828364.0,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 17 기 1분기,,KRW,,
+2025,quarterly,11013,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 17 기 1분기,572710687.0,KRW,,
+2025,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 1분기,287206588.0,KRW,,
+2025,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 1분기,21398870839.0,KRW,,
+2025,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 1분기,-45194681563.0,KRW,,
+2025,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 1분기,6275840000.0,KRW,,
+2025,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 1분기,60030505814.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 17 기 1분기,350031724.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 17 기 1분기,20955738811.0,KRW,,21398870839.0
+2025,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 17 기 1분기,-45787509927.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 17 기 1분기,60097777014.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 17 기 1분기,6295440000.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 1분기,149696336.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 1분기,62825136.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 1분기,19600000.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 1분기,67271200.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 1분기,-592828364.0,KRW,,
+2025,quarterly,11013,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 1분기,-592828364.0,KRW,,
+2025,quarterly,11014,재무상태표,ifrs-full_Assets,자산총계,제 17 기 3분기말,40685261031.0,KRW,제 16 기말,28083739034.0
+2025,quarterly,11014,재무상태표,ifrs-full_CurrentAssets,유동자산,제 17 기 3분기말,28167665695.0,KRW,제 16 기말,16442253238.0
+2025,quarterly,11014,재무상태표,dart_ShortTermAdvancePayments,선급금,제 17 기 3분기말,1191543412.0,KRW,제 16 기말,71495702.0
+2025,quarterly,11014,재무상태표,dart_ShortTermLoans,단기대여금,제 17 기 3분기말,30000000.0,KRW,제 16 기말,
+2025,quarterly,11014,재무상태표,dart_ShortTermOtherReceivables,미수금,제 17 기 3분기말,179220667.0,KRW,제 16 기말,5082000.0
+2025,quarterly,11014,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 17 기 3분기말,101156069.0,KRW,제 16 기말,59569866.0
+2025,quarterly,11014,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 17 기 3분기말,15246823952.0,KRW,제 16 기말,4237414037.0
+2025,quarterly,11014,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 17 기 3분기말,9525644428.0,KRW,제 16 기말,10801030237.0
+2025,quarterly,11014,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 17 기 3분기말,26534650.0,KRW,제 16 기말,41246830.0
+2025,quarterly,11014,재무상태표,ifrs-full_Inventories,재고자산,제 17 기 3분기말,1866742517.0,KRW,제 16 기말,1226414566.0
+2025,quarterly,11014,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 17 기 3분기말,12517595336.0,KRW,제 16 기말,11641485796.0
+2025,quarterly,11014,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,제 17 기 3분기말,58351827.0,KRW,제 16 기말,
+2025,quarterly,11014,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산,제 17 기 3분기말,999999963.0,KRW,제 16 기말,999999963.0
+2025,quarterly,11014,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 17 기 3분기말,136016198.0,KRW,제 16 기말,26850718.0
+2025,quarterly,11014,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 17 기 3분기말,663504850.0,KRW,제 16 기말,429449830.0
+2025,quarterly,11014,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 17 기 3분기말,10659722498.0,KRW,제 16 기말,10185185285.0
+2025,quarterly,11014,재무상태표,ifrs-full_Equity,자본총계,제 17 기 3분기말,30388216887.0,KRW,제 16 기말,21398870839.0
+2025,quarterly,11014,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,제 17 기 3분기말,30300265053.0,KRW,제 16 기말,21398870839.0
+2025,quarterly,11014,재무상태표,dart_CapitalSurplus,자본잉여금,제 17 기 3분기말,60793115014.0,KRW,제 16 기말,60030505814.0
+2025,quarterly,11014,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 17 기 3분기말,723393596.0,KRW,제 16 기말,287206588.0
+2025,quarterly,11014,재무상태표,ifrs-full_IssuedCapital,자본금,제 17 기 3분기말,6332940000.0,KRW,제 16 기말,6275840000.0
+2025,quarterly,11014,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 17 기 3분기말,-37549183557.0,KRW,제 16 기말,-45194681563.0
+2025,quarterly,11014,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,제 17 기 3분기말,87951834.0,KRW,제 16 기말,
+2025,quarterly,11014,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 17 기 3분기말,40685261031.0,KRW,제 16 기말,28083739034.0
+2025,quarterly,11014,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 17 기 3분기말,6888400032.0,KRW,제 16 기말,3879868600.0
+2025,quarterly,11014,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 17 기 3분기말,245964049.0,KRW,제 16 기말,241347870.0
+2025,quarterly,11014,재무상태표,dart_ShortTermAdvancesCustomers,선수금,제 17 기 3분기말,,KRW,제 16 기말,63239560.0
+2025,quarterly,11014,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 17 기 3분기말,2000000.0,KRW,제 16 기말,2000000.0
+2025,quarterly,11014,재무상태표,dart_ShortTermOtherPayables,미지급금,제 17 기 3분기말,1678821842.0,KRW,제 16 기말,735104071.0
+2025,quarterly,11014,재무상태표,dart_ShortTermTradePayables,매입채무,제 17 기 3분기말,2070702340.0,KRW,제 16 기말,243669654.0
+2025,quarterly,11014,재무상태표,dart_ShortTermWithholdings,예수금,제 17 기 3분기말,93836610.0,KRW,제 16 기말,76311520.0
+2025,quarterly,11014,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 17 기 3분기말,570245964.0,KRW,제 16 기말,550666131.0
+2025,quarterly,11014,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,제 17 기 3분기말,564599887.0,KRW,제 16 기말,362679322.0
+2025,quarterly,11014,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 17 기 3분기말,82229340.0,KRW,제 16 기말,24850472.0
+2025,quarterly,11014,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 17 기 3분기말,1580000000.0,KRW,제 16 기말,1580000000.0
+2025,quarterly,11014,재무상태표,ifrs-full_Liabilities,부채총계,제 17 기 3분기말,10297044144.0,KRW,제 16 기말,6684868195.0
+2025,quarterly,11014,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 17 기 3분기말,3408644112.0,KRW,제 16 기말,2804999595.0
+2025,quarterly,11014,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 17 기 3분기말,2023252139.0,KRW,제 16 기말,1648421942.0
+2025,quarterly,11014,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 17 기 3분기말,1289159658.0,KRW,제 16 기말,1102980607.0
+2025,quarterly,11014,재무상태표,ifrs-full_NoncurrentProvisions,충당부채,제 17 기 3분기말,96232315.0,KRW,제 16 기말,53597046.0
+2025,quarterly,11014,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 17 기 3분기,6726422650.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,dart_OtherGains,기타이익,제 17 기 3분기,1666423.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,dart_OtherLosses,기타손실,제 17 기 3분기,47059.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 17 기 3분기,4372793404.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 17 기 3분기,6726382677.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",제 17 기 3분기,-9586344.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",제 17 기 3분기,6735969021.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 17 기 3분기,4637843248.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 17 기 3분기,533.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 17 기 3분기,533.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 17 기 3분기,58148472.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 17 기 3분기,56489135.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 17 기 3분기,11099216054.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 3분기,6726382677.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),제 17 기 3분기,-9586344.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),제 17 기 3분기,6735969021.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 17 기 3분기,6726382677.0,KRW,,
+2025,quarterly,11014,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 17 기 3분기,15737059302.0,KRW,,
+2025,quarterly,11014,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 17 기 3분기,10801030237.0,KRW,,
+2025,quarterly,11014,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 17 기 3분기,9525644428.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 17 기 3분기,362909343.0,KRW,,
+2025,quarterly,11014,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사로 인한 현금유입,제 17 기 3분기,648521000.0,KRW,,
+2025,quarterly,11014,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 17 기 3분기,285611657.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_ProceedsFromIssuingShares,유상증자,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 17 기 3분기,-960037216.0,KRW,,
+2025,quarterly,11014,현금흐름표,dart_IncreaseInLoans,대여금의 증가,제 17 기 3분기,30000000.0,KRW,,
+2025,quarterly,11014,현금흐름표,-표준계정코드 미사용-,사업결합으로 인한 현금유입,제 17 기 3분기,100000000.0,KRW,,
+2025,quarterly,11014,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 17 기 3분기,15450000.0,KRW,,
+2025,quarterly,11014,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 증가,제 17 기 3분기,248465200.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 17 기 3분기,129653000.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 17 기 3분기,667369016.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 17 기 3분기,-678257936.0,KRW,,
+2025,quarterly,11014,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 17 기 3분기,-10325821967.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 17 기 3분기,2001901774.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세 환급(납부),제 17 기 3분기,-14712180.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급,제 17 기 3분기,174995434.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 17 기 3분기,172495671.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 3분기,6726382677.0,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 17 기 3분기,-1275385809.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,제 17 기 3분기,100000000.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상범위의 변동,제 17 기 3분기,100000000.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 3분기,60030505814.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 3분기,6275840000.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 3분기,-45194681563.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 3분기,287206588.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 3분기,21398870839.0,KRW,,
+2025,quarterly,11014,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 17 기 3분기,21398870839.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,6332940000.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,-37549183557.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,723393596.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,30300265053.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,87951834.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,30388216887.0,KRW,,21398870839.0
+2025,quarterly,11014,자본변동표,ifrs-full_Equity,자본총계,제 17 기 3분기,60793115014.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 3분기,1255896208.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 3분기,1255896208.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 3분기,436187008.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 3분기,57100000.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 17 기 3분기,762609200.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_IssueOfEquity,유상증자,제 17 기 3분기,,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 3분기,6726382677.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 3분기,7645498006.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 3분기,-12048166.0,KRW,,
+2025,quarterly,11014,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 17 기 3분기,7645498006.0,KRW,,
+2026,half_year,11012,재무상태표,ifrs-full_Assets,자산총계,제 18 기 반기말,85887872693.0,KRW,제 17 기말,54204850237.0
+2026,half_year,11012,재무상태표,ifrs-full_CurrentAssets,유동 자산,제 18 기 반기말,70744450998.0,KRW,제 17 기말,40444348690.0
+2026,half_year,11012,재무상태표,dart_ShortTermAdvancePayments,선급금,제 18 기 반기말,5455236323.0,KRW,제 17 기말,3103851116.0
+2026,half_year,11012,재무상태표,dart_ShortTermLoans,단기대여금,제 18 기 반기말,30000000.0,KRW,제 17 기말,30000000.0
+2026,half_year,11012,재무상태표,dart_ShortTermOtherReceivables,미수금,제 18 기 반기말,192154824.0,KRW,제 17 기말,73244630.0
+2026,half_year,11012,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 18 기 반기말,182703351.0,KRW,제 17 기말,86552300.0
+2026,half_year,11012,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 18 기 반기말,32017283353.0,KRW,제 17 기말,22014586646.0
+2026,half_year,11012,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 18 기 반기말,25919792156.0,KRW,제 17 기말,11095579715.0
+2026,half_year,11012,재무상태표,ifrs-full_CurrentTaxAssets,당기 법인세자산,제 18 기 반기말,23733380.0,KRW,제 17 기말,33666000.0
+2026,half_year,11012,재무상태표,ifrs-full_Inventories,재고자산,제 18 기 반기말,6923547611.0,KRW,제 17 기말,4006868283.0
+2026,half_year,11012,재무상태표,ifrs-full_NoncurrentAssets,비유동 자산,제 18 기 반기말,15143421695.0,KRW,제 17 기말,13760501547.0
+2026,half_year,11012,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,제 18 기 반기말,45852246.0,KRW,제 17 기말,54256758.0
+2026,half_year,11012,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산,제 18 기 반기말,1399999963.0,KRW,제 17 기말,999999963.0
+2026,half_year,11012,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 18 기 반기말,152212656.0,KRW,제 17 기말,151075052.0
+2026,half_year,11012,재무상태표,ifrs-full_OtherNoncurrentAssets,기타 비유동 자산,제 18 기 반기말,962582477.0,KRW,제 17 기말,895106772.0
+2026,half_year,11012,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 18 기 반기말,12582774353.0,KRW,제 17 기말,11660063002.0
+2026,half_year,11012,재무상태표,ifrs-full_Equity,자본총계,제 18 기 반기말,68357091742.0,KRW,제 17 기말,39620897715.0
+2026,half_year,11012,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,제 18 기 반기말,68334940475.0,KRW,제 17 기말,39564260929.0
+2026,half_year,11012,재무상태표,dart_CapitalSurplus,자본잉여금,제 18 기 반기말,8818720.0,KRW,제 17 기말,8818720.0
+2026,half_year,11012,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 18 기 반기말,3382265982.0,KRW,제 17 기말,1424776560.0
+2026,half_year,11012,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,제 18 기 반기말,24745724.0,KRW,제 17 기말,11412461.0
+2026,half_year,11012,재무상태표,ifrs-full_IssuedCapital,자본금,제 18 기 반기말,19029870000.0,KRW,제 17 기말,6332940000.0
+2026,half_year,11012,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 18 기 반기말,-2299270445.0,KRW,제 17 기말,-28997983106.0
+2026,half_year,11012,재무상태표,ifrs-full_SharePremium,주식발행초과금,제 18 기 반기말,48188510494.0,KRW,제 17 기말,60784296294.0
+2026,half_year,11012,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,제 18 기 반기말,22151267.0,KRW,제 17 기말,56636786.0
+2026,half_year,11012,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 18 기 반기말,85887872693.0,KRW,제 17 기말,54204850237.0
+2026,half_year,11012,재무상태표,ifrs-full_CurrentLiabilities,유동 부채,제 18 기 반기말,13552195907.0,KRW,제 17 기말,10804616483.0
+2026,half_year,11012,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 18 기 반기말,383172049.0,KRW,제 17 기말,246267146.0
+2026,half_year,11012,재무상태표,dart_ShortTermAdvancesCustomers,선수금,제 18 기 반기말,12200000.0,KRW,제 17 기말,53109091.0
+2026,half_year,11012,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 18 기 반기말,2000000.0,KRW,제 17 기말,2000000.0
+2026,half_year,11012,재무상태표,dart_ShortTermOtherPayables,미지급금,제 18 기 반기말,4888641230.0,KRW,제 17 기말,4135596358.0
+2026,half_year,11012,재무상태표,dart_ShortTermTradePayables,단기매입채무,제 18 기 반기말,3201132147.0,KRW,제 17 기말,3737185522.0
+2026,half_year,11012,재무상태표,dart_ShortTermWithholdings,예수금,제 18 기 반기말,173817195.0,KRW,제 17 기말,109590187.0
+2026,half_year,11012,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 18 기 반기말,309932380.0,KRW,제 17 기말,30117609.0
+2026,half_year,11012,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,제 18 기 반기말,873880202.0,KRW,제 17 기말,710218497.0
+2026,half_year,11012,재무상태표,ifrs-full_CurrentProvisions,유동 충당부채,제 18 기 반기말,707420704.0,KRW,제 17 기말,200532073.0
+2026,half_year,11012,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 18 기 반기말,3000000000.0,KRW,제 17 기말,1580000000.0
+2026,half_year,11012,재무상태표,ifrs-full_Liabilities,부채총계,제 18 기 반기말,17530780951.0,KRW,제 17 기말,14583952522.0
+2026,half_year,11012,재무상태표,ifrs-full_NoncurrentLiabilities,비유동 부채,제 18 기 반기말,3978585044.0,KRW,제 17 기말,3779336039.0
+2026,half_year,11012,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 18 기 반기말,2486363549.0,KRW,제 17 기말,2124227511.0
+2026,half_year,11012,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 18 기 반기말,1333311236.0,KRW,제 17 기말,1523913959.0
+2026,half_year,11012,재무상태표,ifrs-full_NoncurrentProvisions,비유동 충당부채,제 18 기 반기말,158910259.0,KRW,제 17 기말,131194569.0
+2026,half_year,11012,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 18 기 반기,12949759745.0,KRW,,
+2026,half_year,11012,포괄손익계산서,dart_OtherGains,기타이익,제 18 기 반기,68046.0,KRW,,
+2026,half_year,11012,포괄손익계산서,dart_OtherLosses,기타손실,제 18 기 반기,29472301.0,KRW,,
+2026,half_year,11012,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 18 기 반기,7170583353.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 18 기 반기,12948753786.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",제 18 기 반기,-15982572.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",제 18 기 반기,12964736358.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 18 기 반기,8255173229.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 18 기 반기,340.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 18 기 반기,330.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 18 기 반기,75780599.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 18 기 반기,95039651.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 18 기 반기,20120343098.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,제 18 기 반기,9139244.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),제 18 기 반기,9139244.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,제 18 기 반기,9139244.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 반기,12939614542.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),제 18 기 반기,-15982572.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),제 18 기 반기,12955597114.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 18 기 반기,12939614542.0,KRW,,
+2026,half_year,11012,포괄손익계산서,ifrs-full_Revenue,수익,제 18 기 반기,28375516327.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 18 기 반기,11095579715.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 18 기 반기,25919792156.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 18 기 반기,1038349954.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_PaymentForStockIssueCost,신주발행비 지급,제 18 기 반기,115974680.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사,제 18 기 반기,87200000.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_ProceedsFromShortTermBorrowings,단기차입금의 증가,제 18 기 반기,3000000000.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_RepaymentsOfShortTermBorrowings,단기차입금의 상환,제 18 기 반기,1580000000.0,KRW,,
+2026,half_year,11012,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 18 기 반기,352875366.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 18 기 반기,-1873836840.0,KRW,,
+2026,half_year,11012,현금흐름표,-표준계정코드 미사용-,사업결합으로 인한 현금유입액,제 18 기 반기,,KRW,,
+2026,half_year,11012,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 18 기 반기,47465000.0,KRW,,
+2026,half_year,11012,현금흐름표,-표준계정코드 미사용-,기타비유동자산의증가,제 18 기 반기,113044028.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_PurchaseOfFinancialAssetsMeasuredAtFairValueThroughProfitOrLossClassifiedAsInvestingActivities,당기손익-공정가치 측정 금융자산의 취득,제 18 기 반기,400000000.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 18 기 반기,21800000.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 18 기 반기,1386457812.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 18 기 반기,15646366064.0,KRW,,
+2026,half_year,11012,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 18 기 반기,-14843011159.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 18 기 반기,3804468028.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세환급(납부),제 18 기 반기,-9932620.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),제 18 기 반기,142841309.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 18 기 반기,153590742.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 반기,12939614542.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 18 기 반기,13333263.0,KRW,,
+2026,half_year,11012,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,환율변동효과 후의 현금및현금성자산의 순증가(감소),제 18 기 반기,14824212441.0,KRW,,
+2026,half_year,11012,자본변동표,dart_BonusIssue,무상증자,제 18 기 반기,-12686580000.0,KRW,,
+2026,half_year,11012,자본변동표,dart_BonusIssue,무상증자,제 18 기 반기,12686580000.0,KRW,,
+2026,half_year,11012,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상기업의 변동,제 18 기 반기,,KRW,,
+2026,half_year,11012,자본변동표,dart_ChangesInConsolidatedCompanies,연결대상기업의 변동,제 18 기 반기,,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,56636786.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,39620897715.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,39564260929.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,1424776560.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,11412461.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,-28997983106.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,60793115014.0,KRW,,
+2026,half_year,11012,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 반기,6332940000.0,KRW,,
+2026,half_year,11012,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 18 기 반기,13333263.0,KRW,,
+2026,half_year,11012,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 18 기 반기,13333263.0,KRW,,
+2026,half_year,11012,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 18 기 반기,13333263.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,22151267.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,68357091742.0,KRW,,39620897715.0
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,68334940475.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,48197329214.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,19029870000.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,-2299270445.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,24745724.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_Equity,자본총계,제 18 기 반기,3382265982.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 반기,10350000.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 반기,90794200.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 반기,1957489422.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 반기,2058633622.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 반기,2058633622.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 반기,12939614542.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 반기,26698712661.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 반기,26698712661.0,KRW,,
+2026,half_year,11012,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 반기,-34485519.0,KRW,,
+2026,quarterly,11013,재무상태표,ifrs-full_Assets,자산총계,제 18 기 1분기말,73633030350.0,KRW,제 17 기말,54204850237.0
+2026,quarterly,11013,재무상태표,ifrs-full_CurrentAssets,유동자산,제 18 기 1분기말,59227154011.0,KRW,제 17 기말,40444348690.0
+2026,quarterly,11013,재무상태표,dart_ShortTermAdvancePayments,선급금,제 18 기 1분기말,1996547132.0,KRW,제 17 기말,3103851116.0
+2026,quarterly,11013,재무상태표,dart_ShortTermLoans,단기대여금,제 18 기 1분기말,30000000.0,KRW,제 17 기말,30000000.0
+2026,quarterly,11013,재무상태표,dart_ShortTermOtherReceivables,미수금,제 18 기 1분기말,42884289.0,KRW,제 17 기말,73244630.0
+2026,quarterly,11013,재무상태표,dart_ShortTermPrepaidExpenses,선급비용,제 18 기 1분기말,100793019.0,KRW,제 17 기말,86552300.0
+2026,quarterly,11013,재무상태표,dart_ShortTermTradeReceivable,매출채권,제 18 기 1분기말,38534921550.0,KRW,제 17 기말,22014586646.0
+2026,quarterly,11013,재무상태표,ifrs-full_CashAndCashEquivalents,현금및현금성자산,제 18 기 1분기말,14334822229.0,KRW,제 17 기말,11095579715.0
+2026,quarterly,11013,재무상태표,ifrs-full_CurrentTaxAssets,당기법인세자산,제 18 기 1분기말,43015020.0,KRW,제 17 기말,33666000.0
+2026,quarterly,11013,재무상태표,ifrs-full_Inventories,재고자산,제 18 기 1분기말,4144170772.0,KRW,제 17 기말,4006868283.0
+2026,quarterly,11013,재무상태표,ifrs-full_NoncurrentAssets,비유동자산,제 18 기 1분기말,14405876339.0,KRW,제 17 기말,13760501547.0
+2026,quarterly,11013,재무상태표,dart_LongTermTradeReceivablesGross,장기매출채권,제 18 기 1분기말,50090642.0,KRW,제 17 기말,54256758.0
+2026,quarterly,11013,재무상태표,dart_NonCurrentFairValueFinancialAsset,당기손익-공정가치측정금융자산,제 18 기 1분기말,1199999963.0,KRW,제 17 기말,999999963.0
+2026,quarterly,11013,재무상태표,ifrs-full_IntangibleAssetsOtherThanGoodwill,무형자산,제 18 기 1분기말,152372991.0,KRW,제 17 기말,151075052.0
+2026,quarterly,11013,재무상태표,ifrs-full_OtherNoncurrentAssets,기타비유동자산,제 18 기 1분기말,870399644.0,KRW,제 17 기말,895106772.0
+2026,quarterly,11013,재무상태표,ifrs-full_PropertyPlantAndEquipment,유형자산,제 18 기 1분기말,12133013099.0,KRW,제 17 기말,11660063002.0
+2026,quarterly,11013,재무상태표,ifrs-full_Equity,자본총계,제 18 기 1분기말,54160818424.0,KRW,제 17 기말,39620897715.0
+2026,quarterly,11013,재무상태표,ifrs-full_EquityAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 자본,제 18 기 1분기말,54122684585.0,KRW,제 17 기말,39564260929.0
+2026,quarterly,11013,재무상태표,dart_CapitalSurplus,자본잉여금,제 18 기 1분기말,8818720.0,KRW,제 17 기말,8818720.0
+2026,quarterly,11013,재무상태표,dart_ElementsOfOtherStockholdersEquity,기타자본구성요소,제 18 기 1분기말,2134746450.0,KRW,제 17 기말,1424776560.0
+2026,quarterly,11013,재무상태표,dart_OtherComprehensiveIncomeLossAccumulatedAmount,기타포괄손익누계액,제 18 기 1분기말,15606480.0,KRW,제 17 기말,11412461.0
+2026,quarterly,11013,재무상태표,ifrs-full_IssuedCapital,자본금,제 18 기 1분기말,19029870000.0,KRW,제 17 기말,6332940000.0
+2026,quarterly,11013,재무상태표,ifrs-full_RetainedEarnings,이익잉여금(결손금),제 18 기 1분기말,-15254867559.0,KRW,제 17 기말,-28997983106.0
+2026,quarterly,11013,재무상태표,ifrs-full_SharePremium,주식발행초과금,제 18 기 1분기말,48188510494.0,KRW,제 17 기말,60784296294.0
+2026,quarterly,11013,재무상태표,ifrs-full_NoncontrollingInterests,비지배지분,제 18 기 1분기말,38133839.0,KRW,제 17 기말,56636786.0
+2026,quarterly,11013,재무상태표,ifrs-full_EquityAndLiabilities,자본과부채총계,제 18 기 1분기말,73633030350.0,KRW,제 17 기말,54204850237.0
+2026,quarterly,11013,재무상태표,ifrs-full_CurrentLiabilities,유동부채,제 18 기 1분기말,15609133466.0,KRW,제 17 기말,10804616483.0
+2026,quarterly,11013,재무상태표,dart_ShortTermAccruedExpenses,미지급비용,제 18 기 1분기말,369066844.0,KRW,제 17 기말,246267146.0
+2026,quarterly,11013,재무상태표,dart_ShortTermAdvancesCustomers,선수금,제 18 기 1분기말,53109091.0,KRW,제 17 기말,53109091.0
+2026,quarterly,11013,재무상태표,dart_ShortTermGuaranteeDepositRent,임대보증금,제 18 기 1분기말,2000000.0,KRW,제 17 기말,2000000.0
+2026,quarterly,11013,재무상태표,dart_ShortTermOtherPayables,미지급금,제 18 기 1분기말,7877224153.0,KRW,제 17 기말,4135596358.0
+2026,quarterly,11013,재무상태표,dart_ShortTermTradePayables,단기매입채무,제 18 기 1분기말,3726049618.0,KRW,제 17 기말,3737185522.0
+2026,quarterly,11013,재무상태표,dart_ShortTermWithholdings,예수금,제 18 기 1분기말,373431004.0,KRW,제 17 기말,109590187.0
+2026,quarterly,11013,재무상태표,ifrs-full_CurrentContractLiabilities,계약부채,제 18 기 1분기말,394796092.0,KRW,제 17 기말,30117609.0
+2026,quarterly,11013,재무상태표,ifrs-full_CurrentLeaseLiabilities,유동 리스부채,제 18 기 1분기말,755959620.0,KRW,제 17 기말,710218497.0
+2026,quarterly,11013,재무상태표,ifrs-full_CurrentProvisions,유동충당부채,제 18 기 1분기말,477497044.0,KRW,제 17 기말,200532073.0
+2026,quarterly,11013,재무상태표,ifrs-full_ShorttermBorrowings,단기차입금,제 18 기 1분기말,1580000000.0,KRW,제 17 기말,1580000000.0
+2026,quarterly,11013,재무상태표,ifrs-full_Liabilities,부채총계,제 18 기 1분기말,19472211926.0,KRW,제 17 기말,14583952522.0
+2026,quarterly,11013,재무상태표,ifrs-full_NoncurrentLiabilities,비유동부채,제 18 기 1분기말,3863078460.0,KRW,제 17 기말,3779336039.0
+2026,quarterly,11013,재무상태표,dart_PostemploymentBenefitObligations,퇴직급여부채,제 18 기 1분기말,2291818853.0,KRW,제 17 기말,2124227511.0
+2026,quarterly,11013,재무상태표,ifrs-full_NoncurrentLeaseLiabilities,리스부채,제 18 기 1분기말,1440065038.0,KRW,제 17 기말,1523913959.0
+2026,quarterly,11013,재무상태표,ifrs-full_NoncurrentProvisions,비유동충당부채,제 18 기 1분기말,131194569.0,KRW,제 17 기말,131194569.0
+2026,quarterly,11013,포괄손익계산서,dart_OperatingIncomeLoss,영업이익(손실),제 18 기 1분기,13854047603.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,dart_OtherGains,기타이익,제 18 기 1분기,946211.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,dart_OtherLosses,기타손실,제 18 기 1분기,131021827.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,dart_TotalSellingGeneralAdministrativeExpenses,판매비와관리비,제 18 기 1분기,7000552747.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ComprehensiveIncome,총포괄손익,제 18 기 1분기,13728806619.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests,"포괄손익, 비지배지분",제 18 기 1분기,-18502947.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent,"포괄손익, 지배기업의 소유주에게 귀속되는 지분",제 18 기 1분기,13747309566.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_CostOfSales,매출원가,제 18 기 1분기,11671155921.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_BasicEarningsLossPerShare,기본주당이익(손실),제 18 기 1분기,361.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_DilutedEarningsLossPerShare,희석주당이익(손실),제 18 기 1분기,361.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_FinanceCosts,금융원가,제 18 기 1분기,69080311.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_FinanceIncome,금융수익,제 18 기 1분기,69720924.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_GrossProfit,매출총이익,제 18 기 1분기,20854600350.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_OtherComprehensiveIncome,기타포괄손익,제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax,당기손익으로 재분류될 수 있는 항목(세후기타포괄손익),제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax,해외사업환산손익,제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 1분기,13724612600.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분에 귀속되는 당기순이익(손실),제 18 기 1분기,-18502947.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업의 소유주에게 귀속되는 당기순이익(손실),제 18 기 1분기,13743115547.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익(손실),제 18 기 1분기,13724612600.0,KRW,,
+2026,quarterly,11013,포괄손익계산서,ifrs-full_Revenue,수익(매출액),제 18 기 1분기,32525756271.0,KRW,,
+2026,quarterly,11013,현금흐름표,dart_CashAndCashEquivalentsAtBeginningOfPeriodCf,기초현금및현금성자산,제 18 기 1분기,11095579715.0,KRW,,
+2026,quarterly,11013,현금흐름표,dart_CashAndCashEquivalentsAtEndOfPeriodCf,기말현금및현금성자산,제 18 기 1분기,14334822229.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_CashFlowsFromUsedInFinancingActivities,재무활동현금흐름,제 18 기 1분기,-196715711.0,KRW,,
+2026,quarterly,11013,현금흐름표,dart_PaymentForStockIssueCost,신주발행비 지급,제 18 기 1분기,115974680.0,KRW,,
+2026,quarterly,11013,현금흐름표,dart_ProceedsFromExerciseOfShareOptions,주식선택권행사,제 18 기 1분기,87200000.0,KRW,,
+2026,quarterly,11013,현금흐름표,-표준계정코드 미사용-,유동성리스부채의 상환,제 18 기 1분기,-167941031.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_CashFlowsFromUsedInInvestingActivities,투자활동현금흐름,제 18 기 1분기,-920388803.0,KRW,,
+2026,quarterly,11013,현금흐름표,dart_PurchaseOfFairValueFinancialAsset,당기손익인식금융자산의 취득,제 18 기 1분기,200000000.0,KRW,,
+2026,quarterly,11013,현금흐름표,-표준계정코드 미사용-,기타비유동자산의 감소,제 18 기 1분기,47240000.0,KRW,,
+2026,quarterly,11013,현금흐름표,-표준계정코드 미사용-,기타비유동자산의증가,제 18 기 1분기,18583897.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities,무형자산의 취득,제 18 기 1분기,11300000.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,유형자산의 취득,제 18 기 1분기,737744906.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,제 18 기 1분기,4352153009.0,KRW,,
+2026,quarterly,11013,현금흐름표,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산 부채의 변동,제 18 기 1분기,-11074840850.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_AdjustmentsForReconcileProfitLoss,당기순이익조정을 위한 가감,제 18 기 1분기,1716748737.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세납부(환급),제 18 기 1분기,9349020.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자지급(영업),제 18 기 1분기,69006937.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,제 18 기 1분기,63988479.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 1분기,13724612600.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_EffectOfExchangeRateChangesOnCashAndCashEquivalents,현금및현금성자산에 대한 환율변동효과,제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,현금흐름표,ifrs-full_IncreaseDecreaseInCashAndCashEquivalents,현금및현금성자산의순증가(감소),제 18 기 1분기,3239242514.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_BonusIssue,무상증자,제 18 기 1분기,12686580000.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_BonusIssue,무상증자,제 18 기 1분기,-12686580000.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,56636786.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,39620897715.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,39564260929.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,1424776560.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,11412461.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,-28997983106.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,60793115014.0,KRW,,
+2026,quarterly,11013,자본변동표,dart_EquityAtBeginningOfPeriod,기초자본,제 18 기 1분기,6332940000.0,KRW,,
+2026,quarterly,11013,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,자본변동표,-표준계정코드 미사용-,해외사업환산손익,제 18 기 1분기,4194019.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,38133839.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,54160818424.0,KRW,,39620897715.0
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,54122684585.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,48197329214.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,19029870000.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,-15254867559.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,15606480.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_Equity,자본총계,제 18 기 1분기,2134746450.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 1분기,10350000.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 1분기,90794200.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 1분기,709969890.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 1분기,811114090.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_IncreaseDecreaseThroughSharebasedPaymentTransactions,주식선택권,제 18 기 1분기,811114090.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 1분기,13724612600.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 1분기,13743115547.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 1분기,13743115547.0,KRW,,
+2026,quarterly,11013,자본변동표,ifrs-full_ProfitLoss,당기순이익(손실),제 18 기 1분기,-18502947.0,KRW,,
