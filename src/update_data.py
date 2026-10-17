@@ -1,146 +1,175 @@
-import os, io, json, zipfile
-from pathlib import Path
+import io
+import json
+import os
+import zipfile
 from datetime import datetime
-import requests
+from pathlib import Path
+import xml.etree.ElementTree as ET
+
 import pandas as pd
+import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
 KEY = os.getenv("DART_API_KEY", "").strip()
 BASE = "https://opendart.fss.or.kr/api"
-TARGET_STOCK_CODE = "458870"  # 씨어스 코스닥 종목코드
+TARGET_STOCK_CODE = "458870"  # 씨어스테크놀로지 코스닥 종목코드
+START_YEAR = 2010
+REPORTS = {
+    "annual": ["11011"],
+    "half-year": ["11012"],
+    "quarterly": ["11013", "11014"],
+}
+COLUMNS = ["year", "category", "report_code", "statement", "account_id",
+           "account", "current_period", "amount", "currency",
+           "previous_period", "previous_amount"]
 
-def company_code():
-    # Do not match by company-name substring: this can select a different issuer.
-    z = zipfile.ZipFile(io.BytesIO(get("corpCode.xml").content))
-    df = pd.read_xml(io.BytesIO(z.read("CORPCODE.xml")), xpath=".//list", dtype=str)
-    for col in ("corp_code", "corp_name", "stock_code"):
-        if col not in df.columns:
-            raise RuntimeError(f"DART 법인코드 목록에 {col} 필드가 없습니다.")
-    df["stock_code"] = df["stock_code"].fillna("").astype(str).str.strip().str.zfill(6)
-    df["corp_name"] = df["corp_name"].fillna("").str.strip()
-    matches = df[df["stock_code"] == TARGET_STOCK_CODE]
-    if len(matches) != 1:
-        details = matches[["corp_code", "corp_name", "stock_code"]].to_dict("records") if len(matches) else []
-        raise RuntimeError(
-            f"종목코드 {TARGET_STOCK_CODE}인 씨어스 법인을 정확히 하나 찾지 못했습니다. "
-            f"검색 결과: {details}"
-        )
-    chosen = matches.iloc[0]
-    if "씨어스" not in chosen["corp_name"]:
-        raise RuntimeError(
-            f"종목코드 {TARGET_STOCK_CODE}의 법인명이 예상과 다릅니다: {chosen['corp_name']}"
-        )
-    result = {
-        "corp_code": str(chosen.corp_code).zfill(8),
-        "corp_name": chosen.corp_name,
-        "stock_code": TARGET_STOCK_CODE,
-        "matched_at": datetime.now().isoformat(timespec="seconds"),
-    }
-    (DATA / "company_match.json").write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    print(
-        f"Verified DART company: {result['corp_name']} "
-        f"(stock_code={result['stock_code']}, corp_code={result['corp_code']})"
-    )
-    return result
 
 def get(endpoint, params=None):
     if not KEY:
         raise RuntimeError("DART_API_KEY가 없습니다. GitHub Actions Secrets를 확인하세요.")
     p = dict(params or {})
     p["crtfc_key"] = KEY
-    r = requests.get(f"{BASE}/{endpoint}", params=p, timeout=60)
-    r.raise_for_status()
-    return r
+    response = requests.get(f"{BASE}/{endpoint}", params=p, timeout=60)
+    response.raise_for_status()
+    return response
+
 
 def company_code():
-    z = zipfile.ZipFile(io.BytesIO(get("corpCode.xml").content))
-    df = pd.read_xml(io.BytesIO(z.read("CORPCODE.xml")), xpath=".//list", dtype=str)
-    df["corp_name"] = df["corp_name"].fillna("").str.strip()
-    chosen = None
-    for name in COMPANY_NAME_CANDIDATES:
-        exact = df[df.corp_name == name]
-        if len(exact):
-            chosen = exact.iloc[0]; break
-    if chosen is None:
-        matches = df[df.corp_name.str.contains("씨어스", na=False)]
-        if len(matches): chosen = matches.iloc[0]
-    if chosen is None:
-        raise RuntimeError("DART 법인코드 목록에서 씨어스를 찾지 못했습니다. 정식 법인명을 확인하세요.")
-    result = {"corp_code": str(chosen.corp_code).zfill(8), "corp_name": chosen.corp_name,
-              "matched_at": datetime.now().isoformat(timespec="seconds")}
-    (DATA / "company_match.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("DART company match:", result["corp_name"], result["corp_code"])
-    return result
+    response = get("corpCode.xml")
+    with zipfile.ZipFile(io.BytesIO(response.content)) as archive:
+        xml_bytes = archive.read("CORPCODE.xml")
+    root = ET.fromstring(xml_bytes)
+    matches = []
+    for node in root.findall(".//list"):
+        stock_code = (node.findtext("stock_code") or "").strip().zfill(6)
+        corp_name = (node.findtext("corp_name") or "").strip()
+        corp_code = (node.findtext("corp_code") or "").strip()
+        if stock_code == TARGET_STOCK_CODE:
+            matches.append({"corp_code": corp_code, "corp_name": corp_name,
+                            "stock_code": stock_code})
+    if len(matches) != 1:
+        raise RuntimeError(
+            f"DART 종목코드 {TARGET_STOCK_CODE} 검색 결과가 정확히 1개가 아닙니다: {matches}"
+        )
+    chosen = matches[0]
+    if "씨어스" not in chosen["corp_name"]:
+        raise RuntimeError(
+            f"종목코드 {TARGET_STOCK_CODE}의 법인명이 씨어스와 일치하지 않습니다: "
+            f"{chosen['corp_name']}"
+        )
+    chosen["corp_code"] = chosen["corp_code"].zfill(8)
+    chosen["matched_at"] = datetime.now().isoformat(timespec="seconds")
+    (DATA / "company_match.json").write_text(
+        json.dumps(chosen, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(f"Verified company: {chosen['corp_name']} "
+          f"(stock_code={chosen['stock_code']}, corp_code={chosen['corp_code']})")
+    return chosen
 
-def get_accounts(code, year, reprt):
-    params = {"corp_code": code, "bsns_year": str(year), "reprt_code": reprt, "fs_div": "CFS"}
+
+def get_accounts(code, year, report_code):
+    params = {"corp_code": code, "bsns_year": str(year),
+              "reprt_code": report_code, "fs_div": "CFS"}
     data = get("fnlttSinglAcntAll.json", params).json()
     if data.get("status") != "000":
         params["fs_div"] = "OFS"
         data = get("fnlttSinglAcntAll.json", params).json()
     return data.get("list", []) if data.get("status") == "000" else []
 
-def amount(v):
+
+def amount(value):
     try:
-        return float(str(v).replace(",", "")) if str(v).strip() not in ("", "-", "None") else None
-    except Exception:
+        text = str(value).replace(",", "").strip()
+        return float(text) if text not in ("", "-", "None") else None
+    except (TypeError, ValueError):
         return None
 
+
 def main():
-    co = company_code()
-    now_year = datetime.now().year
+    company = company_code()
+    current_year = datetime.now().year
     rows = []
-    for year in range(START_YEAR, now_year + 1):
-        for category, codes in REPORTS.items():
-            for reprt in codes:
-                for a in get_accounts(co["corp_code"], year, reprt):
-                    rows.append({"year": year, "category": category, "report_code": reprt,
-                      "statement": a.get("sj_nm"), "account_id": a.get("account_id"),
-                      "account": a.get("account_nm"), "current_period": a.get("thstrm_nm"),
-                      "amount": amount(a.get("thstrm_amount")), "currency": a.get("currency"),
-                      "previous_period": a.get("frmtrm_nm"), "previous_amount": amount(a.get("frmtrm_amount"))})
-    df = pd.DataFrame(rows, columns=["year","category","report_code","statement","account_id","account","current_period","amount","currency","previous_period","previous_amount"])
+    for year in range(START_YEAR, current_year + 1):
+        for category, report_codes in REPORTS.items():
+            for report_code in report_codes:
+                for account in get_accounts(company["corp_code"], year, report_code):
+                    rows.append({
+                        "year": year, "category": category, "report_code": report_code,
+                        "statement": account.get("sj_nm"),
+                        "account_id": account.get("account_id"),
+                        "account": account.get("account_nm"),
+                        "current_period": account.get("thstrm_nm"),
+                        "amount": amount(account.get("thstrm_amount")),
+                        "currency": account.get("currency"),
+                        "previous_period": account.get("frmtrm_nm"),
+                        "previous_amount": amount(account.get("frmtrm_amount")),
+                    })
+
+    df = pd.DataFrame(rows, columns=COLUMNS)
     df.to_csv(DATA / "financial_accounts.csv", index=False, encoding="utf-8-sig")
-    def find(y, cat, terms):
-        part = df[(df.year == y) & (df.category == cat)]
+
+    def find_value(year, category, terms):
+        subset = df[(df["year"] == year) & (df["category"] == category)]
         for term in terms:
-            m = part[part.account.fillna("").str.contains(term, regex=False)]
-            if len(m) and pd.notna(m.iloc[0].amount): return float(m.iloc[0].amount)
+            found = subset[subset["account"].fillna("").str.contains(term, regex=False)]
+            if not found.empty and pd.notna(found.iloc[0]["amount"]):
+                return float(found.iloc[0]["amount"])
         return None
+
+    term_map = {
+        "assets": ["자산총계"], "liabilities": ["부채총계"], "equity": ["자본총계"],
+        "revenue": ["매출액", "영업수익", "수익(매출액)"],
+        "operating_profit": ["영업이익"], "net_income": ["당기순이익", "당기순손익"],
+    }
     ratios = []
-    termmap = {"assets":["자산총계"], "liabilities":["부채총계"], "equity":["자본총계"],
-               "revenue":["매출액","영업수익","수익(매출액)"], "operating_profit":["영업이익"],
-               "net_income":["당기순이익","당기순손익"]}
-    for (y, cat), _ in df.groupby(["year","category"]):
-        v = {k: find(int(y), cat, terms) for k, terms in termmap.items()}
-        v["debt_ratio_pct"] = v["liabilities"]/v["assets"]*100 if v["liabilities"] is not None and v["assets"] else None
-        v["equity_ratio_pct"] = v["equity"]/v["assets"]*100 if v["equity"] is not None and v["assets"] else None
-        v["operating_margin_pct"] = v["operating_profit"]/v["revenue"]*100 if v["operating_profit"] is not None and v["revenue"] else None
-        v["net_margin_pct"] = v["net_income"]/v["revenue"]*100 if v["net_income"] is not None and v["revenue"] else None
-        ratios.append({"year":int(y),"category":cat,**v})
-    rdf = pd.DataFrame(ratios)
-    rdf.to_csv(DATA / "financial_ratios.csv", index=False, encoding="utf-8-sig")
+    if not df.empty:
+        for (year, category), _ in df.groupby(["year", "category"]):
+            values = {key: find_value(int(year), category, terms)
+                      for key, terms in term_map.items()}
+            assets, liabilities = values["assets"], values["liabilities"]
+            revenue, op_profit, net_income = (
+                values["revenue"], values["operating_profit"], values["net_income"]
+            )
+            values["debt_ratio_pct"] = liabilities / assets * 100 if liabilities is not None and assets else None
+            values["equity_ratio_pct"] = values["equity"] / assets * 100 if values["equity"] is not None and assets else None
+            values["operating_margin_pct"] = op_profit / revenue * 100 if op_profit is not None and revenue else None
+            values["net_margin_pct"] = net_income / revenue * 100 if net_income is not None and revenue else None
+            ratios.append({"year": int(year), "category": category, **values})
+    ratio_df = pd.DataFrame(ratios)
+    ratio_df.to_csv(DATA / "financial_ratios.csv", index=False, encoding="utf-8-sig")
+
     filings = []
-    # Report-list endpoint is included to preserve source report links/metadata.
-    for year in range(START_YEAR, now_year + 1):
+    for year in range(START_YEAR, current_year + 1):
         try:
-            data = get("list.json", {"corp_code":co["corp_code"],"bgn_de":f"{year}0101","end_de":f"{year}1231","pblntf_ty":"A","page_no":1,"page_count":100}).json()
-            for item in data.get("list", []):
-                nm = item.get("report_nm", "")
-                if any(t in nm for t in ["사업보고서","반기보고서","분기보고서"]):
+            result = get("list.json", {
+                "corp_code": company["corp_code"], "bgn_de": f"{year}0101",
+                "end_de": f"{year}1231", "pblntf_ty": "A",
+                "page_no": 1, "page_count": 100,
+            }).json()
+            for item in result.get("list", []):
+                report_name = item.get("report_nm", "")
+                if any(term in report_name for term in ("사업보고서", "반기보고서", "분기보고서")):
                     filings.append(item)
-        except Exception as e:
-            print("filing list warning", year, str(e))
+        except Exception as exc:
+            print(f"filing list warning ({year}): {exc}")
+
     pd.DataFrame(filings).to_csv(DATA / "filings.csv", index=False, encoding="utf-8-sig")
-    payload = {"company":co,"updated_at":datetime.now().isoformat(timespec="seconds"),
-      "accounts":df.where(pd.notna(df),None).to_dict("records"),
-      "ratios":rdf.where(pd.notna(rdf),None).to_dict("records"),"filings":filings}
-    (DATA / "dashboard_data.json").write_text(json.dumps(payload, ensure_ascii=False, default=str), encoding="utf-8")
+    payload = {
+        "company": company,
+        "updated_at": datetime.now().isoformat(timespec="seconds"),
+        "accounts": df.astype(object).where(pd.notna(df), None).to_dict("records"),
+        "ratios": ratio_df.astype(object).where(pd.notna(ratio_df), None).to_dict("records"),
+        "filings": filings,
+    }
+    (DATA / "dashboard_data.json").write_text(
+        json.dumps(payload, ensure_ascii=False, default=str), encoding="utf-8"
+    )
+    if not rows:
+        raise RuntimeError("DART에서 재무 계정을 가져오지 못했습니다. 배포를 중단합니다.")
     print(f"Updated {len(rows)} account rows; {len(filings)} filing metadata rows.")
+
 
 if __name__ == "__main__":
     main()
