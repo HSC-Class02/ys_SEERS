@@ -1,0 +1,61 @@
+name: Monthly DART update and GitHub Pages
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 16 1 * *"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: seers-dart-update
+  cancel-in-progress: false
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate API secret
+        env:
+          DART_API_KEY: ${{ secrets.OPENDART_API_KEY || secrets.DART_API_KEY }}
+        run: python -c "import os; k=os.getenv('DART_API_KEY','').strip(); assert k, 'Add OPENDART_API_KEY or DART_API_KEY in repository Actions secrets'; assert len(k)==40, f'Expected 40-character OpenDART key, got {len(k)}'; print('OpenDART API key is present')"
+      - name: Collect and analyze
+        env:
+          DART_API_KEY: ${{ secrets.OPENDART_API_KEY || secrets.DART_API_KEY }}
+        run: python src/update_data.py
+      - name: Run tests
+        run: python -m compileall -q src
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: update Seers DART financial data"
+            git push
+          fi
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site/data
+          cp dashboard/index.html _site/index.html
+          test -s data/dashboard_data.json
+          cp data/dashboard_data.json _site/data/dashboard_data.json
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
