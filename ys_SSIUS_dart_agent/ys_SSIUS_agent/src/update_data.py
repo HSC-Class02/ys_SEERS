@@ -9,9 +9,43 @@ DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
 KEY = os.getenv("DART_API_KEY", "").strip()
 BASE = "https://opendart.fss.or.kr/api"
-COMPANY_NAME_CANDIDATES = ["씨어스테크놀로지", "씨어스"]
-START_YEAR = 2010
-REPORTS = {"annual": ["11011"], "half_year": ["11012"], "quarterly": ["11013", "11014"]}
+TARGET_STOCK_CODE = "458870"  # 씨어스 코스닥 종목코드
+
+def company_code():
+    # Do not match by company-name substring: this can select a different issuer.
+    z = zipfile.ZipFile(io.BytesIO(get("corpCode.xml").content))
+    df = pd.read_xml(io.BytesIO(z.read("CORPCODE.xml")), xpath=".//list", dtype=str)
+    for col in ("corp_code", "corp_name", "stock_code"):
+        if col not in df.columns:
+            raise RuntimeError(f"DART 법인코드 목록에 {col} 필드가 없습니다.")
+    df["stock_code"] = df["stock_code"].fillna("").astype(str).str.strip().str.zfill(6)
+    df["corp_name"] = df["corp_name"].fillna("").str.strip()
+    matches = df[df["stock_code"] == TARGET_STOCK_CODE]
+    if len(matches) != 1:
+        details = matches[["corp_code", "corp_name", "stock_code"]].to_dict("records") if len(matches) else []
+        raise RuntimeError(
+            f"종목코드 {TARGET_STOCK_CODE}인 씨어스 법인을 정확히 하나 찾지 못했습니다. "
+            f"검색 결과: {details}"
+        )
+    chosen = matches.iloc[0]
+    if "씨어스" not in chosen["corp_name"]:
+        raise RuntimeError(
+            f"종목코드 {TARGET_STOCK_CODE}의 법인명이 예상과 다릅니다: {chosen['corp_name']}"
+        )
+    result = {
+        "corp_code": str(chosen.corp_code).zfill(8),
+        "corp_name": chosen.corp_name,
+        "stock_code": TARGET_STOCK_CODE,
+        "matched_at": datetime.now().isoformat(timespec="seconds"),
+    }
+    (DATA / "company_match.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(
+        f"Verified DART company: {result['corp_name']} "
+        f"(stock_code={result['stock_code']}, corp_code={result['corp_code']})"
+    )
+    return result
 
 def get(endpoint, params=None):
     if not KEY:
