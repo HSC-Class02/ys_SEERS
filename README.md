@@ -1,6 +1,6 @@
 # 씨어스 DART 재무분석 Agent
 
-[![🔗 대시보드 바로가기](https://img.shields.io/badge/%F0%9F%94%97-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C%20%EB%B0%94%EB%A1%9C%EA%B0%80%EA%B8%B0-9CCCF2?style=for-the-badge)](https://hsc-class02.github.io/ys_SSIUS/)
+[![🔗 대시보드 바로가기](https://img.shields.io/badge/%F0%9F%94%97-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C%20%EB%B0%94%EB%A1%9C%EA%B0%80%EA%B8%B0-9CCCF2?style=for-the-badge)](https://hsc-class02.github.io/ys_SEERS/)
 
 OpenDART API에서 씨어스 관련 사업·반기·분기보고서의 재무제표 데이터를 수집하고 GitHub Pages 대시보드에 표시합니다.
 
